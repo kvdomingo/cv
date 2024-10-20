@@ -1,0 +1,176 @@
+cv:
+  name: Kenneth V. Domingo
+  location: Bulacan, Philippines
+  email: hello@kvd.studio
+  website: https://kvd.studio
+  social_networks:
+    - network: LinkedIn
+      username: kvdomingo
+    - network: GitHub
+      username: kvdomingo
+  sections:
+    experience:
+      - company: Thinking Machines Data Science
+        position: Software Engineer
+        location: Taguig City, PH
+        start_date: 2023-01
+        end_date: 2024-10
+        highlights:
+          - >
+            Technical lead for the development of the UNICEF Giga DataOps Platform: led a team of 5 data, analytics, 
+            and software engineers to architect and develop a 
+            [fully open-source](https://github.com/unicef/giga-data-ingestion) master data management platform deployed 
+            on Azure Kubernetes Service. V1.0 of the Platform was launched in September 2024 and was presented at the 
+            [Open Source Summit](https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef) 
+            in Vienna later that month. At launch, the Platform managed data for 2.1M school records across 141 
+            countries, with near-real-time connectivity data for 93k schools updating every few minutes. The Platform 
+            was also being leveraged by 2 downstream applications with 5k monthly users.
+          - >
+            Developed GenAI applications for enterprise clients in the financial sector leveraging Azure OpenAI LLMs: 
+            developed responsive chat interfaces and designed backend processes for security and compliance 
+            requirements.
+          - >
+            Developed process tooling for an international carbon registry: involved in backend development in Django 
+            deployed to a Google Cloud environment and optimized database model design to maintain performant queries.
+          - >
+            Developed an internal geospatial analytics platform for a local telecommunications company: involved in 
+            migrating user interface components to a modern tech stack and increasing test coverage.
+      - company: Stevn Books
+        position: Software Developer (Freelance)
+        location: Remote
+        start_date: 2022-11
+        end_date: 2023-01
+        highlights:
+          - >
+            Developed the API and infrastructure for an inventory management and profit calculator system deployed on 
+            DigitalOcean: integrated with PayMongo API to process customer payments and AWS Cognito as a B2C identity 
+            provider.
+      - company: Demand Science (Cobena Business Analytics and Strategy)
+        position: Software Engineer
+        location: Taguig City, PH
+        start_date: 2020-11
+        end_date: 2022-11
+        highlights:
+          - >
+            Developed multiple user interfaces for an internal data lakehouse platform: led the design and development 
+            of in-house UI components of the platform. Spearheaded the company-wide adoption of modern frontend tooling 
+            using Figma and TypeScript.
+          - >
+            Developed a user-facing tool for a foreign market research firm: involved in the design and development of 
+            the backend architecture using Django & Redis deployed to an AWS environment.
+          - >
+            Involved in the development of Gateway, an in-house B2B geospatial analytics platform: led weekly code 
+            reviews to maintain quality standards and optimize the team’s delivery.
+          - >
+            Developed internal tooling for an FMCG client: initiated the migration from manual testing to automated API 
+            testing using Python scripts reducing testing time from 2 days to 30 minutes.
+      - company: DetectPH
+        position: Backend Developer (Freelance)
+        location: Quezon City, PH
+        start_date: 2020-03
+        end_date: 2020-05
+        highlights:
+          - Developed the API for a COVID-19 contact-tracing mobile application written with Express and MongoDB.
+      - company: Philippine Genome Center
+        position: Bioinformatics Intern
+        location: Quezon City, PH
+        start_date: 2020-01
+        end_date: 2020-02
+        highlights:
+          - >
+            Underwent training in bioinformatics; developed a command-line tool and web application for designing 
+            primers for site-directed mutagenesis.
+    certifications:
+      - position: Azure AI Engineer Associate
+        company: '\href{https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A}{Microsoft}'
+        date: 2024-05
+      - position: Professional Cloud Architect
+        company: '\href{https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b#gs.755e2e}{Google Cloud}'
+        date: 2021-07
+    education:
+      - institution: University of the Philippines-Diliman
+        area: Applied Physics (Major in Instrumentation)
+        degree: BS
+        start_date: 2015-08
+        end_date: 2020-07
+        highlights:
+          - '**Thesis:** Compressive sensing: Applications from 1-D to $N$-D'
+    publications:
+      - title: 'Compressively sampled speech: How good is the recovery?'
+        authors:
+          - K. V. Domingo
+          - M. N. Soriano
+        journal: >
+          Proceedings of the Samahang Pisika ng Pilipinas 38
+          [SPP-2020-4C-04](https://paperview.spp-online.org/proceedings/article/view/SPP-2020-4C-04)
+        date: 2020-09
+      - title: Frequency domain reconstruction of stochastically sampled signals based on compressive sensing
+        authors:
+          - K. V. Domingo
+          - M. N. Soriano
+        journal: >
+          Proceedings of the Samahang Pisika ng Pilipinas 37
+          [SPP-2019-PB-38](https://paperview.spp-online.org/proceedings/article/view/SPP-2019-PB-38)
+        date: 2019-05
+    projects:
+      - name: Banyuhay
+        date: '[kvdomingo/banyuhay](https://github.com/kvdomingo/banyuhay)'
+        highlights:
+          - >
+            Developed a geospatial web app to allow users to locate nearby restrooms with bidets.
+          - 'Tools Used: Python, FastAPI, TypeScript, SvelteKit, OpenStreetMaps'
+    technologies:
+      - label: Languages
+        details: Python, Go, TypeScript, Node.js
+      - label: Backend
+        details: Django, FastAPI, Flask, Fiber, Express, Hono
+      - label: Frontend
+        details: React, Svelte, Astro, Next.js
+      - label: Databases
+        details: PostgreSQL, SQLite, Redis, Firestore, MongoDB
+      - label: DevSecOps
+        details: >
+          Docker, Kubernetes, Helm, Terraform, Ansible, ArgoCD, GitHub, GitHub Actions, Azure DevOps,
+          Snyk, Prometheus, Grafana
+      - label: DataOps
+        details: Dagster, Google BigQuery, Apache Spark
+      - label: Visualization & Dashboarding
+        details: Apache Superset, Metabase
+      - label: Cloud Platforms
+        details: Google Cloud Platform, AWS, Azure, Vercel, Firebase
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: a4paper
+  color: '#4338ca'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: ''
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm

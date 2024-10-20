@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  default:
+    cmd:
+      task: render
+
+  render:
+    cmd: poetry run rendercv render Kenneth_V._Domingo_CV.yaml

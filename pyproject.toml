@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cv"
+version = "0.1.0"
+description = ""
+authors = ["Kenneth V. Domingo <hello@kvd.studio>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rendercv = "^1.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
