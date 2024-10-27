@@ -9,7 +9,7 @@ cv:
     - network: GitHub
       username: kvdomingo
   sections:
-    experience:
+    work_experience:
       - company: Thinking Machines Data Science
         position: Software Engineer
         location: Taguig City, PH
@@ -17,24 +17,40 @@ cv:
         end_date: 2024-10
         highlights:
           - >
-            Technical lead for the development of the UNICEF Giga DataOps Platform: led a team of 5 data, analytics, 
-            and software engineers to architect and develop a 
-            [fully open-source](https://github.com/unicef/giga-data-ingestion) master data management platform deployed 
-            on Azure Kubernetes Service. V1.0 of the Platform was launched in September 2024 and was presented at the 
+            Led a cross-functional team of 7 engineers to architect and develop the UNICEF 
+            [Giga DataOps Platform](https://sync.giga.global), a fully 
+            [open-source](https://github.com/unicef/giga-dagster) master data management platform
+            built in coordination with [Giga](https://giga.global), a UNICEF-ITU joint initiative whose mission is
+            to connect all schools to the internet by 2030. V1.0 of the Platform was launched in September 2024 and 
+            was presented at the 
             [Open Source Summit](https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef) 
-            in Vienna later that month. At launch, the Platform managed data for 2.1M school records across 141 
+            in Vienna later that month. At launch, the Platform managed data for over 2.1M school records across 141 
             countries, with near-real-time connectivity data for 93k schools updating every few minutes. The Platform 
             was also being leveraged by 2 downstream applications with 5k monthly users.
           - >
-            Developed GenAI applications for enterprise clients in the financial sector leveraging Azure OpenAI LLMs: 
-            developed responsive chat interfaces and designed backend processes for security and compliance 
-            requirements.
+            Developed a data analytics platform for a foreign agricultural company: optimized
+            the data lake setup for near-realtime updates of logistic movements and
+            validation of the delivery of burnt produce. Daily tasks involved orchestration and
+            scheduling of ELT tasks and SQL queries via Dagster, and automating replication
+            of hybrid cloud deployment environments via Terraform.
           - >
-            Developed process tooling for an international carbon registry: involved in backend development in Django 
-            deployed to a Google Cloud environment and optimized database model design to maintain performant queries.
+            Developed [GenAI applications](https://thinkingmachin.es/llm-solutions/) for several enterprise clients in 
+            the financial sector, leveraging Azure OpenAI. Daily tasks involved designing responsive
+            chat interfaces, and image processing to remove non-text elements in financial
+            documents in order to prepare them for vector embedding for use in downstream
+            RAG applications.
           - >
-            Developed an internal geospatial analytics platform for a local telecommunications company: involved in 
-            migrating user interface components to a modern tech stack and increasing test coverage.
+            Developed the [SDG Impact Tool](https://sdg-tool.goldstandard.org/) for 
+            [Gold Standard](https://goldstandard.org) to digitize their process
+            of reporting, validating, verifying, and tracking the contribution of project
+            activities to the UN Sustainable Development Goals. Daily tasks involved
+            backend development in Django, frontend development in React, and
+            automating infrastructure provisioning across multiple Google Cloud deployment
+            environments using Terraform.
+          - >
+            Developed an internal geospatial analytics platform for a local telecommunications
+            company: involved in migrating user interface components to a modern tech
+            stack and increasing test coverage.
       - company: Stevn Books
         position: Software Developer (Freelance)
         location: Remote
@@ -42,9 +58,9 @@ cv:
         end_date: 2023-01
         highlights:
           - >
-            Developed the API and infrastructure for an inventory management and profit calculator system deployed on 
-            DigitalOcean: integrated with PayMongo API to process customer payments and AWS Cognito as a B2C identity 
-            provider.
+            Developed the API and infrastructure for an inventory management and profit
+            calculator system deployed on DigitalOcean: integrated with PayMongo to
+            process customer payments and AWS Cognito as a B2C identity provider.
       - company: Demand Science (Cobena Business Analytics and Strategy)
         position: Software Engineer
         location: Taguig City, PH
@@ -52,20 +68,27 @@ cv:
         end_date: 2022-11
         highlights:
           - >
-            Developed multiple user interfaces for an internal data lakehouse platform: led the design and development 
-            of in-house UI components of the platform. Spearheaded the company-wide adoption of modern frontend tooling 
-            using Figma and TypeScript.
+            Developed a unified frontend enabling users to experiment with deployed ML
+            models being developed in-house.
           - >
-            Developed a user-facing tool for a foreign market research firm: involved in the design and development of 
-            the backend architecture using Django & Redis deployed to an AWS environment.
+            Developed the frontend for an internal data lakehouse platform allowing users to
+            perform queries on access-controlled data, apply filters, save filters, and export
+            their search results.
+          - Guided the adoption of MLOps principles within the AI/ML team.
+          - Spearheaded the company-wide adoption of modern frontend tooling using Figma and TypeScript.
           - >
-            Involved in the development of Gateway, an in-house B2B geospatial analytics platform: led weekly code 
+            Developed a supply chain performance survey tool for UK-based marketing
+            consultancy [Ideas and Action](https://ideasandaction.com/): led backend development with Django, Redis, and
+            PostgreSQL, deployed to an AWS environment.
+          - >
+            Developed Gateway, a B2B SaaS geospatial analytics platform: led weekly code
             reviews to maintain quality standards and optimize the team’s delivery.
           - >
-            Developed internal tooling for an FMCG client: initiated the migration from manual testing to automated API 
-            testing using Python scripts reducing testing time from 2 days to 30 minutes.
+            Developed internal tooling for an FMCG client: initiated the migration from manual
+            testing to automated API testing using Python scripts, reducing testing time from
+            2 days to 30 minutes.
       - company: DetectPH
-        position: Backend Developer (Freelance)
+        position: Backend Developer (Volunteer)
         location: Quezon City, PH
         start_date: 2020-03
         end_date: 2020-05
@@ -81,16 +104,18 @@ cv:
             Underwent training in bioinformatics; developed a command-line tool and web application for designing 
             primers for site-directed mutagenesis.
     certifications:
-      - position: Azure AI Engineer Associate
-        company: '\href{https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A}{Microsoft}'
+      - name: Azure AI Engineer Associate
         date: 2024-05
-      - position: Professional Cloud Architect
-        company: '\href{https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b#gs.755e2e}{Google Cloud}'
+        highlights:
+          - '[Microsoft](https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A)'
+      - name: Professional Cloud Architect
         date: 2021-07
+        highlights:
+          - '[Google Cloud](https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b\#gs.755e2e)'
     education:
       - institution: University of the Philippines-Diliman
         area: Applied Physics (Major in Instrumentation)
-        degree: BS
+        degree: B.S.
         start_date: 2015-08
         end_date: 2020-07
         highlights:
@@ -114,30 +139,62 @@ cv:
         date: 2019-05
     projects:
       - name: Banyuhay
-        date: '[kvdomingo/banyuhay](https://github.com/kvdomingo/banyuhay)'
+        date: '[Banyuhay](https://banyuhay.kvd.studio)'
         highlights:
           - >
             Developed a geospatial web app to allow users to locate nearby restrooms with bidets.
-          - 'Tools Used: Python, FastAPI, TypeScript, SvelteKit, OpenStreetMaps'
+          - '**Tools Used**: Python, FastAPI, TypeScript, SvelteKit, OpenStreetMaps'
+      - name: Giga DataOps Platform
+        date: '[Giga Sync](https://sync.giga.global)'
+        highlights:
+          - >
+            An open-source master data management platform developed with Giga, a UNICEF x ITU initiative to connect all 
+            schools around the world to the internet by 2030.
+          - >
+            **Tools Used**: Python, FastAPI, TypeScript, React, Dagster, Docker, Azure Kubernetes Service, Helm,
+            Azure DevOps, Apache Spark, Apache Superset, Delta Lake, Datahub, Azure Data Lake Storage Gen2, Trino, 
+            Apache Hive Metastore, Carbon Design System, TailwindCSS, PostgreSQL, Redis, Prometheus, Grafana, Sentry
+      - name: KenGPT
+        date: '[KenGPT](https://gpt.kvd.studio)'
+        highlights:
+          - Yet another ChatGPT clone.
+          - '**Tools Used**: TypeScript, React, Next.js, OpenAI, TailwindCSS'
+      - name: LSFM
+        date: '[LSFM](https://lsfm.kvd.studio)'
+        highlights:
+          - A clone of the LE SSERAFIM Digital Souvenir system.
+          - '**Tools Used**: TypeScript, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg'
+      - name: Chaebot
+        date: '[Chaebot](https://chaebot.kvd.studio)'
+        highlights:
+          - >
+            A Discord bot that keeps track of upcoming K-pop releases, and crossposts Twitter and VLIVE media to 
+            K-pop-oriented Discord guilds.
+          - '**Tools Used**: Python, Flask, Discord.py, JavaScript, React, Twitter API, Material UI, PostgreSQL'
+      - name: PrimerDriver
+        date: '[PrimerDriver](https://primerdriver.kvd.studio)'
+        highlights:
+          - CLI and web application for automation of the design of mutagenic PCR primers for site-directed mutagenesis.
+          - '**Tools Used**: Python, Flask, JavaScript, React, BioPython, Click, Sphinx, Material Design Bootstrap'
     technologies:
-      - label: Languages
-        details: Python, Go, TypeScript, Node.js
       - label: Backend
-        details: Django, FastAPI, Flask, Fiber, Express, Hono
+        details: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono)
       - label: Frontend
-        details: React, Svelte, Astro, Next.js
+        details: TypeScript (React, Next.js, Svelte), Static (Astro, HTML, CSS)
       - label: Databases
-        details: PostgreSQL, SQLite, Redis, Firestore, MongoDB
+        details: Relational (PostgreSQL, SQLite), NoSQL (Redis, Firestore, MongoDB)
+      - label: Cloud Platforms
+        details: Google Cloud Platform, AWS, Azure, Vercel, Firebase
       - label: DevSecOps
         details: >
-          Docker, Kubernetes, Helm, Terraform, Ansible, ArgoCD, GitHub, GitHub Actions, Azure DevOps,
-          Snyk, Prometheus, Grafana
+          Git, Docker, Kubernetes, Helm, Snyk, Ansible, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security,
+          Azure DevOps
       - label: DataOps
         details: Dagster, Google BigQuery, Apache Spark
       - label: Visualization & Dashboarding
         details: Apache Superset, Metabase
-      - label: Cloud Platforms
-        details: Google Cloud Platform, AWS, Azure, Vercel, Firebase
+      - label: Infrastructure
+        details: Linux, Terraform, OpenTofu, Prometheus, Grafana
 design:
   theme: sb2nov
   font: Latin Modern Serif
