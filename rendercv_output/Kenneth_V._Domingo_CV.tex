@@ -3,11 +3,11 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
-    left=2 cm, % seperation between body and page edge from the left
-    right=2 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and footer
+    top=1 cm, % seperation between body and page edge from the top
+    bottom=1 cm, % seperation between body and page edge from the bottom
+    left=1 cm, % seperation between body and page edge from the left
+    right=1 cm, % seperation between body and page edge from the right
+    footskip=0.5 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage{titlesec} % for customizing section titles
@@ -130,8 +130,8 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
-        \LenToUnit{\paperheight-1.0 cm}
+        \LenToUnit{\paperwidth-1 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-0.5 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{}\hspace{\widthof{}}
     }}}%
@@ -182,6 +182,30 @@
     \vspace{0.3 cm - 0.3 cm}
 
 
+    \section{Education}
+
+
+
+        
+        \begin{twocolentry}{
+        \textit{Quezon City, PH}    
+            
+        \textit{Aug 2015 – July 2020}}
+            \textbf{University of the Philippines-Diliman}
+
+            \textit{B.S. in Applied Physics (Major in Instrumentation)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Thesis}: Compressive sensing: Applications from 1-D to $N$-D
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Work Experience}
 
 
@@ -241,7 +265,7 @@
         \textit{Nov 2020 – Nov 2022}}
             \textbf{Software Engineer}
             
-            \textit{Demand Science (Cobena Business Analytics and Strategy)}
+            \textit{Cobena Business Analytics and Strategy (Demand Science)}
         \end{twocolentry}
 
         \vspace{0.10 cm}
@@ -304,6 +328,402 @@
 
 
     
+    \section{Projects}
+
+
+
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{July 2023 – Sept 2024}}
+            \textbf{Giga DataOps Platform}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item An open-source master data management platform developed with Giga, a UNICEF$\times$ITU initiative to  connect all schools around the world to the internet by 2030.
+
+                \item \href{https://sync.giga.global}{Giga Sync} (\href{https://github.com/unicef/giga-data-ingestion}{GitHub}) is the data ingestion portal, allowing users---such as country representatives, government agencies, and NGO  partners---to upload school data in a variety of formats. Here, users can also monitor the progress of ingestion and quality check reports of their previously uploaded data.
+
+                \item \href{https://dagster.giga.global}{Giga Dagster} (\href{https://github.com/unicef/giga-dagster}{GitHub}) is the heart of the platform, responsible for orchestrating data tasks such as ingestion, transformation, and data  quality checks. Data is stored in the data lake in the Delta Lake open table format, allowing various access methods and maintaining a full change history via the change data feed.
+
+                \item \href{https://datasharing.giga.global}{Giga Data Sharing} (\href{https://github.com/unicef/giga-data-sharing}{GitHub}) allows open access to the school master data, subject to role-based access control. The API is compliant with the Delta Sharing Protocol, allowing users to interact with the data using the Delta Sharing client  libraries.
+
+                \item \href{https://superset.giga.global}{Giga Superset} (\href{https://github.com/unicef/giga-superset}{GitHub}) is the business intelligence platform, allowing data analysts to explore, visualize, and extract insights from the data stored in the data lake.
+
+                \item \href{https://datahub.giga.global}{Giga Datahub} (\href{https://github.com/unicef/giga-datahub}{GitHub}) is the data catalog, allowing for the discovery of data stored in the data lake.
+
+                \item Giga Trino (\href{https://github.com/unicef/giga-trino}{GitHub}) is the query engine, allowing Delta Lake tables to be queried as SQL for business intelligence applications such as Superset.
+
+                \item Giga Monitoring (\href{https://github.com/unicef/giga-monitoring}{GitHub}) provides for the monitoring and  logging of all deployed applications on UNICEF Giga's Kubernetes cluster.
+
+                \item \textbf{Backend}: Python, FastAPI, PostgreSQL, Redis
+                \item \textbf{Frontend}: TypeScript, Vite, React, Zustand, TailwindCSS, Carbon Design System, Ant Design,  Tanstack Query, Tanstack Router, Swagger UI
+
+                \item \textbf{DevOps}: GitHub, Azure DevOps, Prometheus, Grafana, Sentry
+                \item \textbf{DataOps}: Dagster, Apache Spark, Apache Hive Metastore, Delta Lake, Delta Sharing, Datahub, Trino,  Apache Superset
+
+                \item \textbf{Infrastructure}: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Entra ID
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{May 2024 – Aug 2024}}
+            \textbf{Farm Data Analytics Platform}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A data platform for validating the delivery of burnt agricultural products.
+                \item \textbf{Backend}: Node.js, Express, PostgreSQL, BoxySAML
+                \item \textbf{Frontend}: TypeScript, Swagger UI
+                \item \textbf{DataOps}: Dagster, Google BigQuery, Polars
+                \item \textbf{DevOps}: GitHub, GitHub Actions, Terraform
+                \item \textbf{Infrastructure}: Docker, Google Cloud Platform, Cloud Run, Cloud SQL, Compute Engine, Azure Enterprise App
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{July 2023 – Aug 2023}}
+            \textbf{ResearchAI}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Various \href{https://thinkingmachin.es/llm-solutions/}{AI chat applications} developed for enterprise clients, focusing on retrieving information from sensitive and PII documents.
+                \item \textbf{Backend}: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB
+                \item \textbf{Frontend}: TypeScript, React, Next.js, T3, Auth.js, Zustand, TailwindCSS, Shadcn UI
+                \item \textbf{DataOps}: Dagster, NumPy, Pandas
+                \item \textbf{AI}: Azure OpenAI, Langchain, OpenCV
+                \item \textbf{DevOps}: GitHub, GitHub Actions, Terraform
+                \item \textbf{Infrastructure}: Docker, Azure Kubernetes Service
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Mar 2023 – June 2023}}
+            \textbf{SDG Impact Tool}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{https://sdg-tool.goldstandard.org}{Web app} developed for Gold Standard to digitize their process of  reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable  Development Goals.
+
+                \item \textbf{Backend}: Python, Django, PostgreSQL, Node.js, Express
+                \item \textbf{Frontend}: TypeScript, Vite, React, Redux, TailwindCSS, Material UI
+                \item \textbf{DevOps}: GitHub, GitHub Actions, Cloud Build
+                \item \textbf{Infrastructure}: Google Cloud Platform, Cloud Run, Cloud SQL, Auth0
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Feb 2023 – Mar 2023}}
+            \textbf{Single Customer View}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A reusable single customer view web app.
+                \item \textbf{Backend}: Python, FastAPI, SQLAlchemy, Snowflake
+                \item \textbf{Frontend}: TypeScript, Vite, React, Redux, Material UI, TailwindCSS
+                \item \textbf{DevOps}: GitHub, GitHub Actions
+                \item \textbf{Infrastructure}: Docker, AWS, EC2, ECS, Cloudflare
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2023 – Feb 2023}}
+            \textbf{Telecom Geospatial Analytics Platform}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item An internal geospatial analytics platform.
+                \item \textbf{Backend}: Python, Django, PostgreSQL, Elasticsearch
+                \item \textbf{Frontend}: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI
+                \item \textbf{DevOps}: GitHub, Jenkins
+                \item \textbf{Infrastructure}: Docker, Google Cloud Platform, Cloud Run, Cloud SQL, Compute Engine
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Nov 2022 – Jan 2023}}
+            \textbf{Stevn Books}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{https://stevnbooks.com}{Web app} for inventory management and profit calculator.
+                \item \textbf{Backend}: Python, Django, PostgreSQL
+                \item \textbf{Frontend}: JavaScript, React, Webpack, Material UI, Swagger UI
+                \item \textbf{Infrastructure}: AWS Cognito, DigitalOcean, Jenkins, Docker
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Mar 2022 – Nov 2022}}
+            \textbf{AI Playground}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.
+                \item \textbf{Backend}: Python, Django
+                \item \textbf{Frontend}: TypeScript, Vite, React, Redux, Material UI, Ant Design
+                \item \textbf{Infrastructure}: AWS, ECS, Cognito, Sentry
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{July 2021 – Nov 2022}}
+            \textbf{Search Console}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A web app to allow business users to search for specific data in the internal data lakehouse.
+                \item \textbf{Backend}: Go, Chi, Redis
+                \item \textbf{Frontend}: TypeScript, React, Webpack, Redux, Material UI, GraphQL
+                \item \textbf{Infrastructure}: AWS, ECS, Cognito
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2021 – Mar 2021}}
+            \textbf{Gateway 3}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A B2B SaaS geospatial analytics platform.
+                \item \textbf{Backend}: Python, Django, PostgreSQL
+                \item \textbf{Frontend}: JavaScript, React, Webpack, Konva, Material UI
+                \item \textbf{Infrastructure}: AWS, ECS, Cognito
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2021 – June 2021}}
+            \textbf{Supply Chain Performance Indicator}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A supply chain performance indicator survey tool developed for UK-based market research firm Ideas \& Action.
+                \item \textbf{Backend}: Python, Django, PostgreSQL, Redis
+                \item \textbf{Frontend}: JavaScript, React, Webpack, Material UI
+                \item \textbf{Infrastructure}: AWS, EC2, RDS
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2020 – Feb 2020}}
+            \textbf{PrimerDriver}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{https://github.com/kvdomingo/primerdriver}{CLI} and \href{https://primerdriver.kvd.studio}{web application}  for automating the design of mutagenic PCR primers for site-directed mutagenesis.
+
+                \item \textbf{Backend}: Python, Flask, BioPython, Sphinx
+                \item \textbf{Frontend}: JavaScript, React, Webpack, Material Design Bootstrap, Click
+                \item \textbf{Infrastructure}: Heroku
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{May 2023 – present}}
+            \textbf{Homelab}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Personal homelab running on a high-availability Kubernetes cluster hosted on-premises.
+                \item \textbf{Infrastructure}: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi
+                \item \textbf{Networking}: pfSense, Traefik, Bind9, Pi-hole
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Oct 2024 – present}}
+            \textbf{Banyuhay}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A geospatial \href{https://banyuhay.kvd.studio}{web app} to allow users within Metro Manila to locate nearby  restrooms with bidets (\href{https://github.com/kvdomingo/banyuhay}{GitHub}).
+
+                \item \textbf{Backend}: Python, FastAPI, PostgreSQL, PostGIS
+                \item \textbf{Frontend}: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps
+                \item \textbf{Infrastructure}: Docker, Kubernetes, Helm, Cloudflare
+                \item \textbf{Data}: OpenStreetMaps
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Feb 2023}}
+            \textbf{KenGPT}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Yet another \href{https://gpt.kvd.studio}{ChatGPT clone} (\href{https://github.com/kvdomingo/kengpt]}{GitHub}.
+                \item \textbf{Backend/Frontend}: TypeScript, React, Next.js, TailwindCSS, PostgreSQL
+                \item \textbf{Infrastructure}: Supabase, Vercel
+                \item \textbf{AI}: OpenAI, Anthropic
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Apr 2022}}
+            \textbf{LSFM}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A \href{https://lsfm.kvd.studio}{clone} of the LE SSERAFIM Digital Souvenir system  (\href{https://github.com/kvdomingo/lsfm}{GitHub}).
+
+                \item \textbf{Frontend}: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg
+                \item \textbf{Infrastructure}: Vercel
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{June 2020 – July 2021}}
+            \textbf{Chaebot}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item A \href{https://chaebot.kvd.studio}{Discord bot} that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds (\href{https://github.com/kvdomingo/chaebot}{GitHub}).
+
+                \item \textbf{Backend}: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API
+                \item \textbf{Frontend}: JavaScript, Vite, React, Bootstrap
+                \item \textbf{Infrastructure}: Heroku, Vercel
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Mar 2020 – June 2020}}
+            \textbf{NCOVenience}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item COVID-19 PH Cases Tracker Map (\href{https://github.com/kvdomingo/ncovenience}{GitHub}).
+                \item \textbf{Backend}: Python, Flask, NumPy, Pandas, BeautifulSoup
+                \item \textbf{Frontend}: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox
+                \item \textbf{Infrastructure}: Heroku
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Certifications}
 
 
@@ -337,30 +757,6 @@
         \begin{onecolentry}
             \begin{highlights}
                 \item \href{https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b\#gs.755e2e}{Google Cloud}
-            \end{highlights}
-        \end{onecolentry}
-
-
-
-    
-    \section{Education}
-
-
-
-        
-        \begin{twocolentry}{
-            
-            
-        \textit{Aug 2015 – July 2020}}
-            \textbf{University of the Philippines-Diliman}
-
-            \textit{B.S. in Applied Physics (Major in Instrumentation)}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item \textbf{Thesis:} Compressive sensing: Applications from 1-D to $N$-D
             \end{highlights}
         \end{onecolentry}
 
@@ -411,123 +807,6 @@
         Proceedings of the Samahang Pisika ng Pilipinas 37 \href{https://paperview.spp-online.org/proceedings/article/view/SPP-2019-PB-38}{SPP-2019-PB-38}
             \end{onecolentry}
         \end{samepage}
-
-
-    
-    \section{Projects}
-
-
-
-        
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://banyuhay.kvd.studio}{Banyuhay}}}
-            \textbf{Banyuhay}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Developed a geospatial web app to allow users to locate nearby restrooms with bidets.
-
-                \item \textbf{Tools Used}: Python, FastAPI, TypeScript, SvelteKit, OpenStreetMaps
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://sync.giga.global}{Giga Sync}}}
-            \textbf{Giga DataOps Platform}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item An open-source master data management platform developed with Giga, a UNICEF x ITU initiative to connect all  schools around the world to the internet by 2030.
-
-                \item \textbf{Tools Used}: Python, FastAPI, TypeScript, React, Dagster, Docker, Azure Kubernetes Service, Helm, Azure DevOps, Apache Spark, Apache Superset, Delta Lake, Datahub, Azure Data Lake Storage Gen2, Trino,  Apache Hive Metastore, Carbon Design System, TailwindCSS, PostgreSQL, Redis, Prometheus, Grafana, Sentry
-
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://gpt.kvd.studio}{KenGPT}}}
-            \textbf{KenGPT}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Yet another ChatGPT clone.
-                \item \textbf{Tools Used}: TypeScript, React, Next.js, OpenAI, TailwindCSS
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://lsfm.kvd.studio}{LSFM}}}
-            \textbf{LSFM}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item A clone of the LE SSERAFIM Digital Souvenir system.
-                \item \textbf{Tools Used}: TypeScript, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://chaebot.kvd.studio}{Chaebot}}}
-            \textbf{Chaebot}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item A Discord bot that keeps track of upcoming K-pop releases, and crossposts Twitter and VLIVE media to  K-pop-oriented Discord guilds.
-
-                \item \textbf{Tools Used}: Python, Flask, Discord.py, JavaScript, React, Twitter API, Material UI, PostgreSQL
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://primerdriver.kvd.studio}{PrimerDriver}}}
-            \textbf{PrimerDriver}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item CLI and web application for automation of the design of mutagenic PCR primers for site-directed mutagenesis.
-                \item \textbf{Tools Used}: Python, Flask, JavaScript, React, BioPython, Click, Sphinx, Material Design Bootstrap
-            \end{highlights}
-        \end{onecolentry}
-
 
 
     
