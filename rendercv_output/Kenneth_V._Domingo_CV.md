@@ -274,12 +274,14 @@
 
 # Technologies
 
-- Backend: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono)
-- Frontend: TypeScript (React, Next.js, Svelte), Static (Astro, HTML, CSS)
-- Databases: Relational (PostgreSQL, SQLite), NoSQL (Redis, Firestore, MongoDB)
-- Cloud Platforms: Google Cloud Platform, AWS, Azure, Vercel, Firebase
-- DevSecOps: Git, Docker, Kubernetes, Helm, Snyk, Ansible, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security, Azure DevOps
+- Backend: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono, Bun)
+- Frontend: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)
+- Databases: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Vector (Chroma, Weaviate)
+- Cloud Platforms: Google Cloud Platform, AWS, Azure, Vercel
+- DevSecOps: Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security, Azure DevOps
 
-- DataOps: Dagster, Google BigQuery, Apache Spark
-- Visualization & Dashboarding: Apache Superset, Metabase
-- Infrastructure: Linux, Terraform, OpenTofu, Prometheus, Grafana
+- Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Google BigQuery, Apache Spark
+- AI/ML: Ollama, LangChain, TensorFlow, Keras, Scikit-learn, OpenCV
+- Infrastructure: Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)
+
+- Business Intelligence/Dashboarding: Apache Superset, Metabase

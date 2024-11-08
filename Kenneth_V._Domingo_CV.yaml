@@ -336,23 +336,27 @@ cv:
         date: 2019-05
     technologies:
       - label: Backend
-        details: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono)
+        details: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono, Bun)
       - label: Frontend
-        details: TypeScript (React, Next.js, Svelte), Static (Astro, HTML, CSS)
+        details: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)
       - label: Databases
-        details: Relational (PostgreSQL, SQLite), NoSQL (Redis, Firestore, MongoDB)
+        details: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Vector (Chroma, Weaviate)
       - label: Cloud Platforms
-        details: Google Cloud Platform, AWS, Azure, Vercel, Firebase
+        details: Google Cloud Platform, AWS, Azure, Vercel
       - label: DevSecOps
         details: >
-          Git, Docker, Kubernetes, Helm, Snyk, Ansible, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security,
+          Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security,
           Azure DevOps
-      - label: DataOps
-        details: Dagster, Google BigQuery, Apache Spark
-      - label: Visualization & Dashboarding
-        details: Apache Superset, Metabase
+      - label: Data
+        details: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Google BigQuery, Apache Spark
+      - label: AI/ML
+        details: Ollama, LangChain, TensorFlow, Keras, Scikit-learn, OpenCV
       - label: Infrastructure
-        details: Linux, Terraform, OpenTofu, Prometheus, Grafana
+        details: >
+          Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana), 
+          Load Balancing (Traefik, NGINX)
+      - label: Business Intelligence/Dashboarding
+        details: Apache Superset, Metabase
 design:
   theme: sb2nov
   font: Latin Modern Serif
