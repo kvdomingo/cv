@@ -276,11 +276,12 @@
 
 - Backend: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono, Bun)
 - Frontend: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)
-- Databases: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Vector (Chroma, Weaviate)
+- Databases: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, Snowflake)  Vector (Chroma, Weaviate)
+
 - Cloud Platforms: Google Cloud Platform, AWS, Azure, Vercel
 - DevSecOps: Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security, Azure DevOps
 
-- Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Google BigQuery, Apache Spark
+- Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Apache Spark
 - AI/ML: Ollama, LangChain, TensorFlow, Keras, Scikit-learn, OpenCV
 - Infrastructure: Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)
 
