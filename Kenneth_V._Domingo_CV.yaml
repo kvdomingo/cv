@@ -112,6 +112,21 @@ cv:
           - >
             Underwent training in bioinformatics; developed a command-line tool and web application for designing 
             primers for site-directed mutagenesis.
+      - company: Instrumentation Physics Laboratory
+        position: Student Researcher
+        location: Quezon City, PH
+        start_date: 2017-10
+        end_date: 2020-07
+        highlights:
+          - Research focused on processing and analysis of videos, images, and other signals using conventional signal processing methods,
+            as well as experimental methods such as compressive sensing and machine learning.
+      - company: Philippine Coral Reef and Mangrove Remote Sensing Project
+        position: Student Assistant (Contract)
+        location: Quezon City, PH
+        start_date: 2018-12
+        end_date: 2019-01
+        highlights:
+          - Performed ground-truth validation of images involving corals classified by a deep neural network.
     projects:
       - name: Giga DataOps Platform
         start_date: 2023-07

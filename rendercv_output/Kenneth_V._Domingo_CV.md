@@ -69,6 +69,18 @@
 - Underwent training in bioinformatics; developed a command-line tool and web application for designing  primers for site-directed mutagenesis.
 
 
+## Instrumentation Physics Laboratory, Student Researcher
+
+- Oct 2017 – July 2020
+- Quezon City, PH
+- Research focused on processing and analysis of videos, images, and other signals using conventional signal processing methods, as well as experimental methods such as compressive sensing and machine learning.
+
+## Philippine Coral Reef and Mangrove Remote Sensing Project, Student Assistant (Contract)
+
+- Dec 2018 – Jan 2019
+- Quezon City, PH
+- Performed ground-truth validation of images involving corals classified by a deep neural network.
+
 # Projects
 
 ## Giga DataOps Platform
