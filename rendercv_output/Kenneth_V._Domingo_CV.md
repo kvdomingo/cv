@@ -17,7 +17,7 @@
 
 # Work Experience
 
-## Thinking Machines Data Science, Software Engineer
+## Thinking Machines Data Science, Software Engineer / Data Engineer
 
 - Jan 2023 – Oct 2024
 - Taguig City, PH
@@ -39,7 +39,7 @@
 - Developed the API and infrastructure for an inventory management and profit calculator system deployed on DigitalOcean: integrated with PayMongo to process customer payments and AWS Cognito as a B2C identity provider.
 
 
-## Cobena Business Analytics and Strategy (Demand Science), Software Engineer
+## Cobena Business Analytics and Strategy (Demand Science), Software Engineer / Data Analyst
 
 - Nov 2020 – Nov 2022
 - Taguig City, PH

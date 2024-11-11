@@ -20,7 +20,7 @@ cv:
           - '**Thesis**: Compressive sensing: Applications from 1-D to $N$-D'
     work_experience:
       - company: Thinking Machines Data Science
-        position: Software Engineer
+        position: Software Engineer / Data Engineer
         location: Taguig City, PH
         start_date: 2023-01
         end_date: 2024-10
@@ -71,7 +71,7 @@ cv:
             calculator system deployed on DigitalOcean: integrated with PayMongo to
             process customer payments and AWS Cognito as a B2C identity provider.
       - company: Cobena Business Analytics and Strategy (Demand Science)
-        position: Software Engineer
+        position: Software Engineer / Data Analyst
         location: Taguig City, PH
         start_date: 2020-11
         end_date: 2022-11
