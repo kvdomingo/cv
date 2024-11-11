@@ -23,13 +23,13 @@
 - Taguig City, PH
 - Led a cross-functional team of 7 engineers to architect and develop the UNICEF  [Giga DataOps Platform](https://sync.giga.global), a fully  [open-source](https://github.com/unicef/giga-dagster) master data management platform built in coordination with [Giga](https://giga.global), a UNICEF-ITU joint initiative whose mission is to connect all schools to the internet by 2030. V1.0 of the Platform was launched in September 2024 and  was presented at the  [Open Source Summit](https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef)  in Vienna later that month. At launch, the Platform managed data for over 2.1M school records across 141  countries, with near-real-time connectivity data for 93k schools updating every few minutes. The Platform  was also being leveraged by 2 downstream applications with 5k monthly users.
 
-- Developed a data analytics platform for a foreign agricultural company: optimized the data lake setup for near-realtime updates of logistic movements and validation of the delivery of burnt produce. Daily tasks involved orchestration and scheduling of ELT tasks and SQL queries via Dagster, and automating replication of hybrid cloud deployment environments via Terraform.
+- Developed a data analytics platform for a Thailand-based agricultural company: optimized the data lake setup for near-realtime updates of logistic movements and validation of the delivery of burnt produce. Daily tasks involved orchestration and scheduling of ELT tasks and SQL queries on BigQuery via Dagster, and automating replication of multi-cloud deployment environments via Terraform.
 
 - Developed [GenAI applications](https://thinkingmachin.es/llm-solutions/) for several enterprise clients in  the financial sector, leveraging Azure OpenAI. Daily tasks involved designing responsive chat interfaces, and image processing to remove non-text elements in financial documents in order to prepare them for vector embedding for use in downstream RAG applications.
 
 - Developed the [SDG Impact Tool](https://sdg-tool.goldstandard.org/) for  [Gold Standard](https://goldstandard.org) to digitize their process of reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable Development Goals. Daily tasks involved backend development in Django, frontend development in React, and automating infrastructure provisioning across multiple Google Cloud deployment environments using Terraform.
 
-- Developed an internal geospatial analytics platform for a local telecommunications company: involved in migrating user interface components to a modern tech stack and increasing test coverage.
+- Developed an internal geospatial analytics platform for a Philippine-based telecommunications company: involved in migrating user interface components to a modern tech stack and increasing test coverage.
 
 
 ## Stevn Books, Software Developer (Freelance)
@@ -53,7 +53,7 @@
 
 - Developed Gateway, a B2B SaaS geospatial analytics platform: led weekly code reviews to maintain quality standards and optimize the team’s delivery.
 
-- Developed internal tooling for an FMCG client: initiated the migration from manual testing to automated API testing using Python scripts, reducing testing time from 2 days to 30 minutes.
+- Developed internal tooling for a multinational FMCG client: initiated the migration from manual testing to automated API testing using Python scripts, reducing testing time from 2 days to 30 minutes.
 
 
 ## DetectPH, Backend Developer (Volunteer)
