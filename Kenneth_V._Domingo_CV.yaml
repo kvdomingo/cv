@@ -18,6 +18,11 @@ cv:
         end_date: 2020-07
         highlights:
           - '**Thesis**: Compressive sensing: Applications from 1-D to $N$-D'
+          - '**Research Lab**: Video and Image Processing, Instrumentation Physics Laboratory'
+          - >
+            **Relevant Coursework**: Computer Methods in Physics, Physical Electronics, 
+            Control Systems Approach to Physics Modeling,
+            Signal/Video/Image Processing, Neural Networks and Machine Learning
     work_experience:
       - company: Thinking Machines Data Science
         position: Software Engineer / Data Engineer
@@ -374,6 +379,8 @@ cv:
           Load Balancing (Traefik, NGINX)
       - label: Business Intelligence/Dashboarding
         details: Apache Superset, Metabase
+      - label: Miscellaneous
+        details: Microsoft Excel, Google Sheets, LaTeX
 design:
   theme: sb2nov
   font: Latin Modern Serif

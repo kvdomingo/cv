@@ -14,6 +14,9 @@
 - Aug 2015 – July 2020
 - Quezon City, PH
 - **Thesis**: Compressive sensing: Applications from 1-D to $N$-D
+- **Research Lab**: Video and Image Processing, Instrumentation Physics Laboratory
+- **Relevant Coursework**: Computer Methods in Physics, Physical Electronics,  Control Systems Approach to Physics Modeling, Signal/Video/Image Processing, Neural Networks and Machine Learning
+
 
 # Work Experience
 
@@ -298,3 +301,4 @@
 - Infrastructure: Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)
 
 - Business Intelligence/Dashboarding: Apache Superset, Metabase
+- Miscellaneous: Microsoft Excel, Google Sheets, LaTeX
