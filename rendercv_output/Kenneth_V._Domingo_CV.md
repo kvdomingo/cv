@@ -111,24 +111,25 @@
 - **DevOps**: GitHub, Azure DevOps, Prometheus, Grafana, Sentry
 - **DataOps**: Dagster, Apache Spark, Apache Hive Metastore, Delta Lake, Delta Sharing, Datahub, Trino,  Apache Superset
 
-- **Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Entra ID
+- **Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Azure Entra ID
 
 ## Farm Data Analytics Platform
 
 - May 2024 – Aug 2024
-- A data platform for validating the delivery of burnt agricultural products.
-- **Backend**: Node.js, Express, PostgreSQL, BoxySAML
+- A data platform for validating the delivery of burnt agricultural products using various data sources such as vehicular data, geospatial farm data, GISTDA roads, and NASA FIRMS active fire data. The platform used Google BigQuery and Google Cloud Storage as the primary data warehouse.
+- **Backend**: Node.js, Express, PostgreSQL, BoxySAML, Prisma
 - **Frontend**: TypeScript, Swagger UI
 - **DataOps**: Dagster, Google BigQuery, Polars
 - **DevOps**: GitHub, GitHub Actions, Terraform
-- **Infrastructure**: Docker, Google Cloud Platform, Cloud Run, Cloud SQL, Compute Engine, Azure Enterprise App
+- **Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine, GCP HA VPN, GCP Cloud Router, GCP Cloud Load Balancing, GCP Cloud Storage, Azure Enterprise Application,  AWS VPC, AWS S3
+
 
 ## ResearchAI
 
 - July 2023 – Aug 2023
 - Various [AI chat applications](https://thinkingmachin.es/llm-solutions/) developed for enterprise clients, focusing on retrieving information from sensitive and PII documents.
 - **Backend**: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB
-- **Frontend**: TypeScript, React, Next.js, T3, Auth.js, Zustand, TailwindCSS, Shadcn UI
+- **Frontend**: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI
 - **DataOps**: Dagster, NumPy, Pandas
 - **AI**: Azure OpenAI, Langchain, OpenCV
 - **DevOps**: GitHub, GitHub Actions, Terraform
@@ -137,12 +138,12 @@
 ## SDG Impact Tool
 
 - Mar 2023 – June 2023
-- [Web app](https://sdg-tool.goldstandard.org) developed for Gold Standard to digitize their process of  reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable  Development Goals.
+- [Web application](https://sdg-tool.goldstandard.org) developed for Gold Standard to digitize their process of  reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable  Development Goals.
 
 - **Backend**: Python, Django, PostgreSQL, Node.js, Express
 - **Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Material UI
-- **DevOps**: GitHub, GitHub Actions, Cloud Build
-- **Infrastructure**: Google Cloud Platform, Cloud Run, Cloud SQL, Auth0
+- **DevOps**: GitHub, GitHub Actions, GCP Cloud Build, Terraform
+- **Infrastructure**: GCP Cloud Run, GCP Cloud SQL, Auth0
 
 ## Single Customer View
 
@@ -150,8 +151,8 @@
 - A reusable single customer view web app.
 - **Backend**: Python, FastAPI, SQLAlchemy, Snowflake
 - **Frontend**: TypeScript, Vite, React, Redux, Material UI, TailwindCSS
-- **DevOps**: GitHub, GitHub Actions
-- **Infrastructure**: Docker, AWS, EC2, ECS, Cloudflare
+- **DevOps**: GitHub, GitHub Actions, Terraform
+- **Infrastructure**: Docker, AWS EC2, AWS ECS, Cloudflare
 
 ## Telecom Geospatial Analytics Platform
 
@@ -159,8 +160,8 @@
 - An internal geospatial analytics platform.
 - **Backend**: Python, Django, PostgreSQL, Elasticsearch
 - **Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI
-- **DevOps**: GitHub, Jenkins
-- **Infrastructure**: Docker, Google Cloud Platform, Cloud Run, Cloud SQL, Compute Engine
+- **DevOps**: GitHub, Jenkins, Terraform
+- **Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine
 
 ## Stevn Books
 
@@ -176,7 +177,7 @@
 - A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.
 - **Backend**: Python, Django
 - **Frontend**: TypeScript, Vite, React, Redux, Material UI, Ant Design
-- **Infrastructure**: AWS, ECS, Cognito, Sentry
+- **Infrastructure**: AWS ECS, AWS Cognito, Sentry
 
 ## Search Console
 
@@ -184,7 +185,7 @@
 - A web app to allow business users to search for specific data in the internal data lakehouse.
 - **Backend**: Go, Chi, Redis
 - **Frontend**: TypeScript, React, Webpack, Redux, Material UI, GraphQL
-- **Infrastructure**: AWS, ECS, Cognito
+- **Infrastructure**: AWS ECS, AWS Cognito
 
 ## Gateway 3
 
@@ -192,7 +193,6 @@
 - A B2B SaaS geospatial analytics platform.
 - **Backend**: Python, Django, PostgreSQL
 - **Frontend**: JavaScript, React, Webpack, Konva, Material UI
-- **Infrastructure**: AWS, ECS, Cognito
 
 ## Supply Chain Performance Indicator
 
@@ -200,7 +200,7 @@
 - A supply chain performance indicator survey tool developed for UK-based market research firm Ideas & Action.
 - **Backend**: Python, Django, PostgreSQL, Redis
 - **Frontend**: JavaScript, React, Webpack, Material UI
-- **Infrastructure**: AWS, EC2, RDS
+- **Infrastructure**: AWS EC2, AWS RDS, NGINX
 
 ## PrimerDriver
 
@@ -210,6 +210,15 @@
 - **Backend**: Python, Flask, BioPython, Sphinx
 - **Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Click
 - **Infrastructure**: Heroku
+
+## Chaebot
+
+- June 2020 – July 2021
+- A [Discord bot](https://chaebot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
+
+- **Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API
+- **Frontend**: JavaScript, Vite, React, Bootstrap
+- **Infrastructure**: Heroku, Vercel
 
 ## Homelab
 
@@ -243,15 +252,6 @@
 
 - **Frontend**: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg
 - **Infrastructure**: Vercel
-
-## Chaebot
-
-- June 2020 – July 2021
-- A [Discord bot](https://chaebot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
-
-- **Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API
-- **Frontend**: JavaScript, Vite, React, Bootstrap
-- **Infrastructure**: Heroku, Vercel
 
 ## NCOVenience
 
