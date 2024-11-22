@@ -211,10 +211,10 @@
 - **Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Click
 - **Infrastructure**: Heroku
 
-## Chaebot
+## Hannibot
 
 - June 2020 – July 2021
-- A [Discord bot](https://chaebot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
+- A [Discord bot](https://hannibot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
 
 - **Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API
 - **Frontend**: JavaScript, Vite, React, Bootstrap
