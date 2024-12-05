@@ -20,6 +20,11 @@
 
 # Work Experience
 
+## eyva.ai, AI Software Engineer
+
+- Dec 2024 – present
+- Cologne, DE
+
 ## Thinking Machines Data Science, Software Engineer / Data Engineer
 
 - Jan 2023 – Oct 2024

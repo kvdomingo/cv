@@ -24,6 +24,10 @@ cv:
             Control Systems Approach to Physics Modeling,
             Signal/Video/Image Processing, Neural Networks and Machine Learning
     work_experience:
+      - company: eyva.ai
+        position: AI Software Engineer
+        location: Cologne, DE
+        start_date: 2024-12
       - company: Thinking Machines Data Science
         position: Software Engineer / Data Engineer
         location: Taguig City, PH
