@@ -307,7 +307,7 @@ cv:
         start_date: 2024-10
         highlights:
           - >
-            A geospatial [web app](https://banyuhay.kvd.studio) to allow users within Metro Manila to locate nearby 
+            A geospatial [web app](https://banyuh.ai) to allow users within Metro Manila to locate nearby 
             restrooms with bidets ([GitHub](https://github.com/kvdomingo/banyuhay)).
           - '**Backend**: Python, FastAPI, PostgreSQL, PostGIS'
           - '**Frontend**: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps'
