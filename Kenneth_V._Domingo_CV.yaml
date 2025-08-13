@@ -26,7 +26,7 @@ cv:
     work_experience:
       - company: eyva.ai
         position: AI Software Engineer
-        location: Cologne, DE
+        location: Cologne, DE (Remote)
         start_date: 2024-12
       - company: Thinking Machines Data Science
         position: Software Engineer / Data Engineer
@@ -71,7 +71,7 @@ cv:
             stack and increasing test coverage.
       - company: Stevn Books
         position: Software Developer (Freelance)
-        location: Remote
+        location: Manila, PH (Remote)
         start_date: 2022-11
         end_date: 2023-01
         highlights:
@@ -372,21 +372,21 @@ cv:
           OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, Snowflake) 
           Vector (Chroma, Weaviate)
       - label: Cloud Platforms
-        details: Google Cloud Platform, AWS, Azure, Vercel
+        details: Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel, Cloudflare
       - label: DevSecOps
         details: >
           Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security,
           Azure DevOps
       - label: Data
-        details: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Apache Spark
+        details: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, DuckLake, Apache Spark
       - label: AI/ML
-        details: Ollama, LangChain, TensorFlow, Keras, Scikit-learn, OpenCV
+        details: Ollama, LangChain, Vercel AI SDK, TensorFlow, Keras, Scikit-learn, OpenCV
       - label: Infrastructure
         details: >
           Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana), 
           Load Balancing (Traefik, NGINX)
       - label: Business Intelligence/Dashboarding
-        details: Apache Superset, Metabase
+        details: Apache Superset, Metabase, Evidence
       - label: Miscellaneous
         details: Microsoft Excel, Google Sheets, LaTeX
 design:

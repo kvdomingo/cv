@@ -6,4 +6,11 @@ tasks:
       task: render
 
   render:
-    cmd: poetry run rendercv render Kenneth_V._Domingo_CV.yaml
+    cmd: uv run rendercv render Kenneth_V._Domingo_CV.yaml
+    sources:
+      - Kenneth_V._Domingo_CV.yaml
+      - classic/*
+      - markdown/*
+    generates:
+      - rendercv_output/*
+    watch: true

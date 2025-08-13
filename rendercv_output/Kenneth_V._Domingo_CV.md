@@ -23,7 +23,7 @@
 ## eyva.ai, AI Software Engineer
 
 - Dec 2024 – present
-- Cologne, DE
+- Cologne, DE (Remote)
 
 ## Thinking Machines Data Science, Software Engineer / Data Engineer
 
@@ -43,7 +43,7 @@
 ## Stevn Books, Software Developer (Freelance)
 
 - Nov 2022 – Jan 2023
-- Remote
+- Manila, PH (Remote)
 - Developed the API and infrastructure for an inventory management and profit calculator system deployed on DigitalOcean: integrated with PayMongo to process customer payments and AWS Cognito as a B2C identity provider.
 
 
@@ -298,12 +298,12 @@
 - Frontend: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)
 - Databases: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, Snowflake)  Vector (Chroma, Weaviate)
 
-- Cloud Platforms: Google Cloud Platform, AWS, Azure, Vercel
+- Cloud Platforms: Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel, Cloudflare
 - DevSecOps: Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security, Azure DevOps
 
-- Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, Apache Spark
-- AI/ML: Ollama, LangChain, TensorFlow, Keras, Scikit-learn, OpenCV
+- Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, DuckLake, Apache Spark
+- AI/ML: Ollama, LangChain, Vercel AI SDK, TensorFlow, Keras, Scikit-learn, OpenCV
 - Infrastructure: Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)
 
-- Business Intelligence/Dashboarding: Apache Superset, Metabase
+- Business Intelligence/Dashboarding: Apache Superset, Metabase, Evidence
 - Miscellaneous: Microsoft Excel, Google Sheets, LaTeX
