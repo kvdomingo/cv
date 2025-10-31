@@ -20,10 +20,16 @@
 
 # Work Experience
 
-## eyva.ai, AI Software Engineer
+## Eyva, AI Software Engineer
 
 - Dec 2024 – present
 - Cologne, DE (Remote)
+- Performed the migration of the Eyva platform from standalone React to Next.js, implemented the new design system, and contributed to the platform's continuous improvement.
+- Redeveloped the Research Assistant, allowing it to integrate better with the Eyva platform, implementing an agentic architecture, overhauling the chat interface to align with the new design system, and making it compliant with the ISO 27001:2022 standard.
+- Member of the Information Security Management System (ISMS) team and owned major tasks contributing to the ISO 27001:2022 certification process.
+
+- Owned routine security, compliance, infrastructure maintenance, and system administration tasks.
+- Created proof-of-concepts for adopting new vendors such as centralized logging and notification systems.
 
 ## Thinking Machines Data Science, Software Engineer / Data Engineer
 

@@ -17,17 +17,32 @@ cv:
         start_date: 2015-08
         end_date: 2020-07
         highlights:
-          - '**Thesis**: Compressive sensing: Applications from 1-D to $N$-D'
-          - '**Research Lab**: Video and Image Processing, Instrumentation Physics Laboratory'
+          - "**Thesis**: Compressive sensing: Applications from 1-D to $N$-D"
+          - "**Research Lab**: Video and Image Processing, Instrumentation Physics Laboratory"
           - >
             **Relevant Coursework**: Computer Methods in Physics, Physical Electronics, 
             Control Systems Approach to Physics Modeling,
             Signal/Video/Image Processing, Neural Networks and Machine Learning
     work_experience:
-      - company: eyva.ai
+      - company: Eyva
         position: AI Software Engineer
         location: Cologne, DE (Remote)
         start_date: 2024-12
+        highlights:
+          - Performed the migration of the Eyva platform from standalone React to
+            Next.js, implemented the new design system, and contributed to the
+            platform's continuous improvement.
+          - Redeveloped the Research Assistant, allowing it to integrate better with the
+            Eyva platform, implementing an agentic architecture, overhauling the chat
+            interface to align with the new design system, and making it compliant
+            with the ISO 27001:2022 standard.
+          - >
+            Member of the Information Security Management System (ISMS) team and owned
+            major tasks contributing to the ISO 27001:2022 certification process.
+          - Owned routine security, compliance, infrastructure maintenance, and
+            system administration tasks.
+          - Created proof-of-concepts for adopting new vendors such as centralized
+            logging and notification systems.
       - company: Thinking Machines Data Science
         position: Software Engineer / Data Engineer
         location: Taguig City, PH
@@ -172,15 +187,15 @@ cv:
           - >
             Giga Monitoring ([GitHub](https://github.com/unicef/giga-monitoring)) provides for the monitoring and 
             logging of all deployed applications on UNICEF Giga's Kubernetes cluster.
-          - '**Backend**: Python, FastAPI, PostgreSQL, Redis'
+          - "**Backend**: Python, FastAPI, PostgreSQL, Redis"
           - >
             **Frontend**: TypeScript, Vite, React, Zustand, TailwindCSS, Carbon Design System, Ant Design, 
             Tanstack Query, Tanstack Router, Swagger UI
-          - '**DevOps**: GitHub, Azure DevOps, Prometheus, Grafana, Sentry'
+          - "**DevOps**: GitHub, Azure DevOps, Prometheus, Grafana, Sentry"
           - >
             **DataOps**: Dagster, Apache Spark, Apache Hive Metastore, Delta Lake, Delta Sharing, Datahub, Trino, 
             Apache Superset
-          - '**Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Azure Entra ID'
+          - "**Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Azure Entra ID"
       - name: Farm Data Analytics Platform
         start_date: 2024-05
         end_date: 2024-08
@@ -188,10 +203,10 @@ cv:
           - A data platform for validating the delivery of burnt agricultural products using various data sources
             such as vehicular data, geospatial farm data, GISTDA roads, and NASA FIRMS active fire data. The platform
             used Google BigQuery and Google Cloud Storage as the primary data warehouse.
-          - '**Backend**: Node.js, Express, PostgreSQL, BoxySAML, Prisma'
-          - '**Frontend**: TypeScript, Swagger UI'
-          - '**DataOps**: Dagster, Google BigQuery, Polars'
-          - '**DevOps**: GitHub, GitHub Actions, Terraform'
+          - "**Backend**: Node.js, Express, PostgreSQL, BoxySAML, Prisma"
+          - "**Frontend**: TypeScript, Swagger UI"
+          - "**DataOps**: Dagster, Google BigQuery, Polars"
+          - "**DevOps**: GitHub, GitHub Actions, Terraform"
           - >
             **Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine, GCP HA VPN,
             GCP Cloud Router, GCP Cloud Load Balancing, GCP Cloud Storage, Azure Enterprise Application, 
@@ -202,12 +217,12 @@ cv:
         highlights:
           - Various [AI chat applications](https://thinkingmachin.es/llm-solutions/) developed for enterprise clients,
             focusing on retrieving information from sensitive and PII documents.
-          - '**Backend**: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB'
-          - '**Frontend**: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI'
-          - '**DataOps**: Dagster, NumPy, Pandas'
-          - '**AI**: Azure OpenAI, Langchain, OpenCV'
-          - '**DevOps**: GitHub, GitHub Actions, Terraform'
-          - '**Infrastructure**: Docker, Azure Kubernetes Service'
+          - "**Backend**: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB"
+          - "**Frontend**: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI"
+          - "**DataOps**: Dagster, NumPy, Pandas"
+          - "**AI**: Azure OpenAI, Langchain, OpenCV"
+          - "**DevOps**: GitHub, GitHub Actions, Terraform"
+          - "**Infrastructure**: Docker, Azure Kubernetes Service"
       - name: SDG Impact Tool
         start_date: 2023-03
         end_date: 2023-06
@@ -216,67 +231,67 @@ cv:
             [Web application](https://sdg-tool.goldstandard.org) developed for Gold Standard to digitize their process of 
             reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable 
             Development Goals.
-          - '**Backend**: Python, Django, PostgreSQL, Node.js, Express'
-          - '**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Material UI'
-          - '**DevOps**: GitHub, GitHub Actions, GCP Cloud Build, Terraform'
-          - '**Infrastructure**: GCP Cloud Run, GCP Cloud SQL, Auth0'
+          - "**Backend**: Python, Django, PostgreSQL, Node.js, Express"
+          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Material UI"
+          - "**DevOps**: GitHub, GitHub Actions, GCP Cloud Build, Terraform"
+          - "**Infrastructure**: GCP Cloud Run, GCP Cloud SQL, Auth0"
       - name: Single Customer View
         start_date: 2023-02
         end_date: 2023-03
         highlights:
           - A reusable single customer view web app.
-          - '**Backend**: Python, FastAPI, SQLAlchemy, Snowflake'
-          - '**Frontend**: TypeScript, Vite, React, Redux, Material UI, TailwindCSS'
-          - '**DevOps**: GitHub, GitHub Actions, Terraform'
-          - '**Infrastructure**: Docker, AWS EC2, AWS ECS, Cloudflare'
+          - "**Backend**: Python, FastAPI, SQLAlchemy, Snowflake"
+          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI, TailwindCSS"
+          - "**DevOps**: GitHub, GitHub Actions, Terraform"
+          - "**Infrastructure**: Docker, AWS EC2, AWS ECS, Cloudflare"
       - name: Telecom Geospatial Analytics Platform
         start_date: 2023-01
         end_date: 2023-02
         highlights:
           - An internal geospatial analytics platform.
-          - '**Backend**: Python, Django, PostgreSQL, Elasticsearch'
-          - '**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI'
-          - '**DevOps**: GitHub, Jenkins, Terraform'
-          - '**Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine'
+          - "**Backend**: Python, Django, PostgreSQL, Elasticsearch"
+          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI"
+          - "**DevOps**: GitHub, Jenkins, Terraform"
+          - "**Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine"
       - name: Stevn Books
         start_date: 2022-11
         end_date: 2023-01
         highlights:
-          - '[Web app](https://stevnbooks.com) for inventory management and profit calculator.'
-          - '**Backend**: Python, Django, PostgreSQL'
-          - '**Frontend**: JavaScript, React, Webpack, Material UI, Swagger UI'
-          - '**Infrastructure**: AWS Cognito, DigitalOcean, Jenkins, Docker'
+          - "[Web app](https://stevnbooks.com) for inventory management and profit calculator."
+          - "**Backend**: Python, Django, PostgreSQL"
+          - "**Frontend**: JavaScript, React, Webpack, Material UI, Swagger UI"
+          - "**Infrastructure**: AWS Cognito, DigitalOcean, Jenkins, Docker"
       - name: AI Playground
         start_date: 2022-03
         end_date: 2022-11
         highlights:
           - A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.
-          - '**Backend**: Python, Django'
-          - '**Frontend**: TypeScript, Vite, React, Redux, Material UI, Ant Design'
-          - '**Infrastructure**: AWS ECS, AWS Cognito, Sentry'
+          - "**Backend**: Python, Django"
+          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI, Ant Design"
+          - "**Infrastructure**: AWS ECS, AWS Cognito, Sentry"
       - name: Search Console
         start_date: 2021-07
         end_date: 2022-11
         highlights:
           - A web app to allow business users to search for specific data in the internal data lakehouse.
-          - '**Backend**: Go, Chi, Redis'
-          - '**Frontend**: TypeScript, React, Webpack, Redux, Material UI, GraphQL'
-          - '**Infrastructure**: AWS ECS, AWS Cognito'
+          - "**Backend**: Go, Chi, Redis"
+          - "**Frontend**: TypeScript, React, Webpack, Redux, Material UI, GraphQL"
+          - "**Infrastructure**: AWS ECS, AWS Cognito"
       - name: Gateway 3
         start_date: 2021-01
         end_date: 2021-03
         highlights:
           - A B2B SaaS geospatial analytics platform.
-          - '**Backend**: Python, Django, PostgreSQL'
-          - '**Frontend**: JavaScript, React, Webpack, Konva, Material UI'
+          - "**Backend**: Python, Django, PostgreSQL"
+          - "**Frontend**: JavaScript, React, Webpack, Konva, Material UI"
       - name: Supply Chain Performance Indicator
         start_date: 2021-01
         end_date: 2021-06
         highlights:
           - A supply chain performance indicator survey tool developed for UK-based market research firm Ideas & Action.
-          - '**Backend**: Python, Django, PostgreSQL, Redis'
-          - '**Frontend**: JavaScript, React, Webpack, Material UI'
-          - '**Infrastructure**: AWS EC2, AWS RDS, NGINX'
+          - "**Backend**: Python, Django, PostgreSQL, Redis"
+          - "**Frontend**: JavaScript, React, Webpack, Material UI"
+          - "**Infrastructure**: AWS EC2, AWS RDS, NGINX"
       - name: PrimerDriver
         start_date: 2020-01
         end_date: 2020-02
@@ -284,9 +299,9 @@ cv:
           - >
             [CLI](https://github.com/kvdomingo/primerdriver) and [web application](https://primerdriver.kvd.studio) 
             for automating the design of mutagenic PCR primers for site-directed mutagenesis.
-          - '**Backend**: Python, Flask, BioPython, Sphinx'
-          - '**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Click'
-          - '**Infrastructure**: Heroku'
+          - "**Backend**: Python, Flask, BioPython, Sphinx"
+          - "**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Click"
+          - "**Infrastructure**: Heroku"
       - name: Hannibot
         start_date: 2020-06
         end_date: 2021-07
@@ -294,59 +309,59 @@ cv:
           - >
             A [Discord bot](https://hannibot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts 
             Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
-          - '**Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API'
-          - '**Frontend**: JavaScript, Vite, React, Bootstrap'
-          - '**Infrastructure**: Heroku, Vercel'
+          - "**Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API"
+          - "**Frontend**: JavaScript, Vite, React, Bootstrap"
+          - "**Infrastructure**: Heroku, Vercel"
       - name: Homelab
         start_date: 2023-05
         highlights:
           - Personal homelab running on a high-availability Kubernetes cluster hosted on-premises.
-          - '**Infrastructure**: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi'
-          - '**Networking**: pfSense, Traefik, Bind9, Pi-hole'
+          - "**Infrastructure**: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi"
+          - "**Networking**: pfSense, Traefik, Bind9, Pi-hole"
       - name: Banyuhay
         start_date: 2024-10
         highlights:
           - >
             A geospatial [web app](https://banyuh.ai) to allow users within Metro Manila to locate nearby 
             restrooms with bidets ([GitHub](https://github.com/kvdomingo/banyuhay)).
-          - '**Backend**: Python, FastAPI, PostgreSQL, PostGIS'
-          - '**Frontend**: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps'
-          - '**Infrastructure**: Docker, Kubernetes, Helm, Cloudflare'
-          - '**Data**: OpenStreetMaps'
+          - "**Backend**: Python, FastAPI, PostgreSQL, PostGIS"
+          - "**Frontend**: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps"
+          - "**Infrastructure**: Docker, Kubernetes, Helm, Cloudflare"
+          - "**Data**: OpenStreetMaps"
       - name: KenGPT
         date: 2023-02
         highlights:
           - Yet another [ChatGPT clone](https://gpt.kvd.studio) ([GitHub](https://github.com/kvdomingo/kengpt]).
-          - '**Backend/Frontend**: TypeScript, React, Next.js, TailwindCSS, PostgreSQL'
-          - '**Infrastructure**: Supabase, Vercel'
-          - '**AI**: OpenAI, Anthropic'
+          - "**Backend/Frontend**: TypeScript, React, Next.js, TailwindCSS, PostgreSQL"
+          - "**Infrastructure**: Supabase, Vercel"
+          - "**AI**: OpenAI, Anthropic"
       - name: LSFM
         date: 2022-04
         highlights:
           - >
             A [clone](https://lsfm.kvd.studio) of the LE SSERAFIM Digital Souvenir system 
             ([GitHub](https://github.com/kvdomingo/lsfm)).
-          - '**Frontend**: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg'
-          - '**Infrastructure**: Vercel'
+          - "**Frontend**: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg"
+          - "**Infrastructure**: Vercel"
       - name: NCOVenience
         start_date: 2020-03
         end_date: 2020-06
         highlights:
           - COVID-19 PH Cases Tracker Map ([GitHub](https://github.com/kvdomingo/ncovenience)).
-          - '**Backend**: Python, Flask, NumPy, Pandas, BeautifulSoup'
-          - '**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox'
-          - '**Infrastructure**: Heroku'
+          - "**Backend**: Python, Flask, NumPy, Pandas, BeautifulSoup"
+          - "**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox"
+          - "**Infrastructure**: Heroku"
     certifications:
       - name: Azure AI Engineer Associate
         date: 2024-05
         highlights:
-          - '[Microsoft](https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A)'
+          - "[Microsoft](https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A)"
       - name: Professional Cloud Architect
         date: 2021-07
         highlights:
           - '[Google Cloud](https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b\#gs.755e2e)'
     publications:
-      - title: 'Compressively sampled speech: How good is the recovery?'
+      - title: "Compressively sampled speech: How good is the recovery?"
         authors:
           - K. V. Domingo
           - M. N. Soriano
@@ -394,15 +409,15 @@ design:
   font: Latin Modern Serif
   font_size: 10pt
   page_size: a4paper
-  color: '#4338ca'
+  color: "#4338ca"
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: ''
+  last_updated_date_style: ""
   header_font_size: 30 pt
   text_alignment: justified
-  seperator_between_connections: ''
+  seperator_between_connections: ""
   use_icons_for_connections: true
   margins:
     page:
