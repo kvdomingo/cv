@@ -465,3 +465,5 @@ cython_debug/
 #.idea/
 
 .task/
+
+.claude/settings.local.json

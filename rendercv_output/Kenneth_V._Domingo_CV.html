@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Kenneth V. Domingo's CV
+        
     </title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
         integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
     <style>
         .markdown-body {
             box-sizing: border-box;
@@ -31,42 +39,61 @@
 
 <body>
     <article class="markdown-body">
-        <h1>Kenneth V. Domingo's CV</h1>
+        <h1>&lt;<cv.name>&gt;'s CV</h1>
+        <p>((<em> if cv.phone </em>))
+        - Phone: &lt;<cv.phone|replace("tel:", "")|replace("-"," ")>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.email </em>))
+        - Email: <a href="mailto:&lt;&lt;cv.email&gt;&gt;">&lt;<cv.email>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.location </em>))
+        - Location: &lt;<cv.location>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.website </em>))
+        - Website: <a href="&lt;&lt;cv.website&gt;&gt;">&lt;<cv.website|replace("https://","")|replace("/","")>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.social_networks </em>))
+            ((<em> for network in cv.social_networks </em>))
+        - &lt;<network.network>&gt;: <a href="&lt;&lt;network.url&gt;&gt;">&lt;<network.username>&gt;</a>
+            ((<em> endfor </em>))
+        ((<em> endif </em>))</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>University of the Philippines-Diliman</strong>, B.S. in Applied Physics (Major in Instrumentation) -- Quezon City, PH</h2>
+        <p>Aug 2015 – July 2020</p>
         <ul>
-        <li>Email: <a href="mailto:hello@kvd.studio">hello@kvd.studio</a></li>
-        <li>Location: Bulacan, Philippines</li>
-        <li>Website: <a href="https://kvd.studio/">kvd.studio</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/kvdomingo">kvdomingo</a></li>
-        <li>GitHub: <a href="https://github.com/kvdomingo">kvdomingo</a></li>
+        <li>
+        <p><strong>Thesis</strong>: Compressive sensing: Applications from 1-D to $N$-D</p>
+        </li>
+        <li>
+        <p><strong>Research Lab</strong>: Video and Image Processing, Instrumentation Physics Laboratory</p>
+        </li>
+        <li>
+        <p><strong>Relevant Coursework</strong>: Computer Methods in Physics, Physical Electronics,  Control Systems Approach to Physics Modeling, Signal/Video/Image Processing, Neural Networks and Machine Learning</p>
+        </li>
         </ul>
-        <h1>Education</h1>
-        <h2>University of the Philippines-Diliman, B.S. in Applied Physics (Major in Instrumentation)</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>AI Software Engineer</strong>, Eyva -- Cologne, DE (Remote)</h2>
+        <p>Dec 2024 – present</p>
         <ul>
-        <li>Aug 2015 – July 2020</li>
-        <li>Quezon City, PH</li>
-        <li><strong>Thesis</strong>: Compressive sensing: Applications from 1-D to $N$-D</li>
-        <li><strong>Research Lab</strong>: Video and Image Processing, Instrumentation Physics Laboratory</li>
-        <li><strong>Relevant Coursework</strong>: Computer Methods in Physics, Physical Electronics,  Control Systems Approach to Physics Modeling, Signal/Video/Image Processing, Neural Networks and Machine Learning</li>
-        </ul>
-        <h1>Work Experience</h1>
-        <h2>Eyva, AI Software Engineer</h2>
-        <ul>
-        <li>Dec 2024 – present</li>
-        <li>Cologne, DE (Remote)</li>
-        <li>Performed the migration of the Eyva platform from standalone React to Next.js, implemented the new design system, and contributed to the platform's continuous improvement.</li>
-        <li>Redeveloped the Research Assistant, allowing it to integrate better with the Eyva platform, implementing an agentic architecture, overhauling the chat interface to align with the new design system, and making it compliant with the ISO 27001:2022 standard.</li>
+        <li>
+        <p>Performed the migration of the Eyva platform from standalone React to Next.js, implemented the new design system, and contributed to the platform's continuous improvement.</p>
+        </li>
+        <li>
+        <p>Redeveloped the Research Assistant, allowing it to integrate better with the Eyva platform, implementing an agentic architecture, overhauling the chat interface to align with the new design system, and making it compliant with the ISO 27001:2022 standard.</p>
+        </li>
         <li>
         <p>Member of the Information Security Management System (ISMS) team and owned major tasks contributing to the ISO 27001:2022 certification process.</p>
         </li>
         <li>
         <p>Owned routine security, compliance, infrastructure maintenance, and system administration tasks.</p>
         </li>
-        <li>Created proof-of-concepts for adopting new vendors such as centralized logging and notification systems.</li>
+        <li>
+        <p>Created proof-of-concepts for adopting new vendors such as centralized logging and notification systems.</p>
+        </li>
         </ul>
-        <h2>Thinking Machines Data Science, Software Engineer / Data Engineer</h2>
+        <h2><strong>Software Engineer / Data Engineer</strong>, Thinking Machines Data Science -- Taguig City, PH</h2>
+        <p>Jan 2023 – Oct 2024</p>
         <ul>
-        <li>Jan 2023 – Oct 2024</li>
-        <li>Taguig City, PH</li>
         <li>
         <p>Led a cross-functional team of 7 engineers to architect and develop the UNICEF  <a href="https://sync.giga.global">Giga DataOps Platform</a>, a fully  <a href="https://github.com/unicef/giga-dagster">open-source</a> master data management platform built in coordination with <a href="https://giga.global">Giga</a>, a UNICEF-ITU joint initiative whose mission is to connect all schools to the internet by 2030. V1.0 of the Platform was launched in September 2024 and  was presented at the  <a href="https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef">Open Source Summit</a>  in Vienna later that month. At launch, the Platform managed data for over 2.1M school records across 141  countries, with near-real-time connectivity data for 93k schools updating every few minutes. The Platform  was also being leveraged by 2 downstream applications with 5k monthly users.</p>
         </li>
@@ -83,16 +110,14 @@
         <p>Developed an internal geospatial analytics platform for a Philippine-based telecommunications company: involved in migrating user interface components to a modern tech stack and increasing test coverage.</p>
         </li>
         </ul>
-        <h2>Stevn Books, Software Developer (Freelance)</h2>
+        <h2><strong>Software Developer (Freelance)</strong>, Stevn Books -- Manila, PH (Remote)</h2>
+        <p>Nov 2022 – Jan 2023</p>
         <ul>
-        <li>Nov 2022 – Jan 2023</li>
-        <li>Manila, PH (Remote)</li>
         <li>Developed the API and infrastructure for an inventory management and profit calculator system deployed on DigitalOcean: integrated with PayMongo to process customer payments and AWS Cognito as a B2C identity provider.</li>
         </ul>
-        <h2>Cobena Business Analytics and Strategy (Demand Science), Software Engineer / Data Analyst</h2>
+        <h2><strong>Software Engineer / Data Analyst</strong>, Cobena Business Analytics and Strategy (Demand Science) -- Taguig City, PH</h2>
+        <p>Nov 2020 – Nov 2022</p>
         <ul>
-        <li>Nov 2020 – Nov 2022</li>
-        <li>Taguig City, PH</li>
         <li>
         <p>Developed a unified frontend enabling users to experiment with deployed ML models being developed in-house.</p>
         </li>
@@ -102,7 +127,9 @@
         <li>
         <p>Guided the adoption of MLOps principles within the AI/ML team.</p>
         </li>
-        <li>Spearheaded the company-wide adoption of modern frontend tooling using Figma and TypeScript.</li>
+        <li>
+        <p>Spearheaded the company-wide adoption of modern frontend tooling using Figma and TypeScript.</p>
+        </li>
         <li>
         <p>Developed a supply chain performance survey tool for UK-based marketing consultancy <a href="https://ideasandaction.com/">Ideas and Action</a>: led backend development with Django, Redis, and PostgreSQL, deployed to an AWS environment.</p>
         </li>
@@ -113,34 +140,30 @@
         <p>Developed internal tooling for a multinational FMCG client: initiated the migration from manual testing to automated API testing using Python scripts, reducing testing time from 2 days to 30 minutes.</p>
         </li>
         </ul>
-        <h2>DetectPH, Backend Developer (Volunteer)</h2>
+        <h2><strong>Backend Developer (Volunteer)</strong>, DetectPH -- Quezon City, PH</h2>
+        <p>Mar 2020 – May 2020</p>
         <ul>
-        <li>Mar 2020 – May 2020</li>
-        <li>Quezon City, PH</li>
         <li>Developed the API for a COVID-19 contact-tracing mobile application written with Express and MongoDB.</li>
         </ul>
-        <h2>Philippine Genome Center, Bioinformatics Intern</h2>
+        <h2><strong>Bioinformatics Intern</strong>, Philippine Genome Center -- Quezon City, PH</h2>
+        <p>Jan 2020 – Feb 2020</p>
         <ul>
-        <li>Jan 2020 – Feb 2020</li>
-        <li>Quezon City, PH</li>
         <li>Underwent training in bioinformatics; developed a command-line tool and web application for designing  primers for site-directed mutagenesis.</li>
         </ul>
-        <h2>Instrumentation Physics Laboratory, Student Researcher</h2>
+        <h2><strong>Student Researcher</strong>, Instrumentation Physics Laboratory -- Quezon City, PH</h2>
+        <p>Oct 2017 – July 2020</p>
         <ul>
-        <li>Oct 2017 – July 2020</li>
-        <li>Quezon City, PH</li>
         <li>Research focused on processing and analysis of videos, images, and other signals using conventional signal processing methods, as well as experimental methods such as compressive sensing and machine learning.</li>
         </ul>
-        <h2>Philippine Coral Reef and Mangrove Remote Sensing Project, Student Assistant (Contract)</h2>
+        <h2><strong>Student Assistant (Contract)</strong>, Philippine Coral Reef and Mangrove Remote Sensing Project -- Quezon City, PH</h2>
+        <p>Dec 2018 – Jan 2019</p>
         <ul>
-        <li>Dec 2018 – Jan 2019</li>
-        <li>Quezon City, PH</li>
         <li>Performed ground-truth validation of images involving corals classified by a deep neural network.</li>
         </ul>
-        <h1>Projects</h1>
-        <h2>Giga DataOps Platform</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Giga DataOps Platform</strong></h2>
+        <p>July 2023 – Sept 2024</p>
         <ul>
-        <li>July 2023 – Sept 2024</li>
         <li>
         <p>An open-source master data management platform developed with Giga, a UNICEF$\times$ITU initiative to  connect all schools around the world to the internet by 2030.</p>
         </li>
@@ -181,217 +204,316 @@
         <p><strong>Infrastructure</strong>: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Azure Entra ID</p>
         </li>
         </ul>
-        <h2>Farm Data Analytics Platform</h2>
+        <h2><strong>Farm Data Analytics Platform</strong></h2>
+        <p>May 2024 – Aug 2024</p>
         <ul>
-        <li>May 2024 – Aug 2024</li>
-        <li>A data platform for validating the delivery of burnt agricultural products using various data sources such as vehicular data, geospatial farm data, GISTDA roads, and NASA FIRMS active fire data. The platform used Google BigQuery and Google Cloud Storage as the primary data warehouse.</li>
-        <li><strong>Backend</strong>: Node.js, Express, PostgreSQL, BoxySAML, Prisma</li>
-        <li><strong>Frontend</strong>: TypeScript, Swagger UI</li>
-        <li><strong>DataOps</strong>: Dagster, Google BigQuery, Polars</li>
-        <li><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</li>
-        <li><strong>Infrastructure</strong>: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine, GCP HA VPN, GCP Cloud Router, GCP Cloud Load Balancing, GCP Cloud Storage, Azure Enterprise Application,  AWS VPC, AWS S3</li>
+        <li>
+        <p>A data platform for validating the delivery of burnt agricultural products using various data sources such as vehicular data, geospatial farm data, GISTDA roads, and NASA FIRMS active fire data. The platform used Google BigQuery and Google Cloud Storage as the primary data warehouse.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Node.js, Express, PostgreSQL, BoxySAML, Prisma</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Swagger UI</p>
+        </li>
+        <li>
+        <p><strong>DataOps</strong>: Dagster, Google BigQuery, Polars</p>
+        </li>
+        <li>
+        <p><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine, GCP HA VPN, GCP Cloud Router, GCP Cloud Load Balancing, GCP Cloud Storage, Azure Enterprise Application,  AWS VPC, AWS S3</p>
+        </li>
         </ul>
-        <h2>ResearchAI</h2>
+        <h2><strong>ResearchAI</strong></h2>
+        <p>July 2023 – Aug 2023</p>
         <ul>
-        <li>July 2023 – Aug 2023</li>
-        <li>Various <a href="https://thinkingmachin.es/llm-solutions/">AI chat applications</a> developed for enterprise clients, focusing on retrieving information from sensitive and PII documents.</li>
-        <li><strong>Backend</strong>: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB</li>
-        <li><strong>Frontend</strong>: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI</li>
-        <li><strong>DataOps</strong>: Dagster, NumPy, Pandas</li>
-        <li><strong>AI</strong>: Azure OpenAI, Langchain, OpenCV</li>
-        <li><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</li>
-        <li><strong>Infrastructure</strong>: Docker, Azure Kubernetes Service</li>
+        <li>
+        <p>Various <a href="https://thinkingmachin.es/llm-solutions/">AI chat applications</a> developed for enterprise clients, focusing on retrieving information from sensitive and PII documents.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI</p>
+        </li>
+        <li>
+        <p><strong>DataOps</strong>: Dagster, NumPy, Pandas</p>
+        </li>
+        <li>
+        <p><strong>AI</strong>: Azure OpenAI, Langchain, OpenCV</p>
+        </li>
+        <li>
+        <p><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Docker, Azure Kubernetes Service</p>
+        </li>
         </ul>
-        <h2>SDG Impact Tool</h2>
+        <h2><strong>SDG Impact Tool</strong></h2>
+        <p>Mar 2023 – June 2023</p>
         <ul>
-        <li>Mar 2023 – June 2023</li>
         <li>
         <p><a href="https://sdg-tool.goldstandard.org">Web application</a> developed for Gold Standard to digitize their process of  reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable  Development Goals.</p>
         </li>
         <li>
         <p><strong>Backend</strong>: Python, Django, PostgreSQL, Node.js, Express</p>
         </li>
-        <li><strong>Frontend</strong>: TypeScript, Vite, React, Redux, TailwindCSS, Material UI</li>
-        <li><strong>DevOps</strong>: GitHub, GitHub Actions, GCP Cloud Build, Terraform</li>
-        <li><strong>Infrastructure</strong>: GCP Cloud Run, GCP Cloud SQL, Auth0</li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Vite, React, Redux, TailwindCSS, Material UI</p>
+        </li>
+        <li>
+        <p><strong>DevOps</strong>: GitHub, GitHub Actions, GCP Cloud Build, Terraform</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: GCP Cloud Run, GCP Cloud SQL, Auth0</p>
+        </li>
         </ul>
-        <h2>Single Customer View</h2>
+        <h2><strong>Single Customer View</strong></h2>
+        <p>Feb 2023 – Mar 2023</p>
         <ul>
-        <li>Feb 2023 – Mar 2023</li>
-        <li>A reusable single customer view web app.</li>
-        <li><strong>Backend</strong>: Python, FastAPI, SQLAlchemy, Snowflake</li>
-        <li><strong>Frontend</strong>: TypeScript, Vite, React, Redux, Material UI, TailwindCSS</li>
-        <li><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</li>
-        <li><strong>Infrastructure</strong>: Docker, AWS EC2, AWS ECS, Cloudflare</li>
+        <li>
+        <p>A reusable single customer view web app.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, FastAPI, SQLAlchemy, Snowflake</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Vite, React, Redux, Material UI, TailwindCSS</p>
+        </li>
+        <li>
+        <p><strong>DevOps</strong>: GitHub, GitHub Actions, Terraform</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Docker, AWS EC2, AWS ECS, Cloudflare</p>
+        </li>
         </ul>
-        <h2>Telecom Geospatial Analytics Platform</h2>
+        <h2><strong>Telecom Geospatial Analytics Platform</strong></h2>
+        <p>Jan 2023 – Feb 2023</p>
         <ul>
-        <li>Jan 2023 – Feb 2023</li>
-        <li>An internal geospatial analytics platform.</li>
-        <li><strong>Backend</strong>: Python, Django, PostgreSQL, Elasticsearch</li>
-        <li><strong>Frontend</strong>: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI</li>
-        <li><strong>DevOps</strong>: GitHub, Jenkins, Terraform</li>
-        <li><strong>Infrastructure</strong>: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine</li>
+        <li>
+        <p>An internal geospatial analytics platform.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Django, PostgreSQL, Elasticsearch</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI</p>
+        </li>
+        <li>
+        <p><strong>DevOps</strong>: GitHub, Jenkins, Terraform</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine</p>
+        </li>
         </ul>
-        <h2>Stevn Books</h2>
+        <h2><strong>Stevn Books</strong></h2>
+        <p>Nov 2022 – Jan 2023</p>
         <ul>
-        <li>Nov 2022 – Jan 2023</li>
-        <li><a href="https://stevnbooks.com">Web app</a> for inventory management and profit calculator.</li>
-        <li><strong>Backend</strong>: Python, Django, PostgreSQL</li>
-        <li><strong>Frontend</strong>: JavaScript, React, Webpack, Material UI, Swagger UI</li>
-        <li><strong>Infrastructure</strong>: AWS Cognito, DigitalOcean, Jenkins, Docker</li>
+        <li>
+        <p><a href="https://stevnbooks.com">Web app</a> for inventory management and profit calculator.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Django, PostgreSQL</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, React, Webpack, Material UI, Swagger UI</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: AWS Cognito, DigitalOcean, Jenkins, Docker</p>
+        </li>
         </ul>
-        <h2>AI Playground</h2>
+        <h2><strong>AI Playground</strong></h2>
+        <p>Mar 2022 – Nov 2022</p>
         <ul>
-        <li>Mar 2022 – Nov 2022</li>
-        <li>A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.</li>
-        <li><strong>Backend</strong>: Python, Django</li>
-        <li><strong>Frontend</strong>: TypeScript, Vite, React, Redux, Material UI, Ant Design</li>
-        <li><strong>Infrastructure</strong>: AWS ECS, AWS Cognito, Sentry</li>
+        <li>
+        <p>A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Django</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Vite, React, Redux, Material UI, Ant Design</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: AWS ECS, AWS Cognito, Sentry</p>
+        </li>
         </ul>
-        <h2>Search Console</h2>
+        <h2><strong>Search Console</strong></h2>
+        <p>July 2021 – Nov 2022</p>
         <ul>
-        <li>July 2021 – Nov 2022</li>
-        <li>A web app to allow business users to search for specific data in the internal data lakehouse.</li>
-        <li><strong>Backend</strong>: Go, Chi, Redis</li>
-        <li><strong>Frontend</strong>: TypeScript, React, Webpack, Redux, Material UI, GraphQL</li>
-        <li><strong>Infrastructure</strong>: AWS ECS, AWS Cognito</li>
+        <li>
+        <p>A web app to allow business users to search for specific data in the internal data lakehouse.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Go, Chi, Redis</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, React, Webpack, Redux, Material UI, GraphQL</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: AWS ECS, AWS Cognito</p>
+        </li>
         </ul>
-        <h2>Gateway 3</h2>
+        <h2><strong>Gateway 3</strong></h2>
+        <p>Jan 2021 – Mar 2021</p>
         <ul>
-        <li>Jan 2021 – Mar 2021</li>
-        <li>A B2B SaaS geospatial analytics platform.</li>
-        <li><strong>Backend</strong>: Python, Django, PostgreSQL</li>
-        <li><strong>Frontend</strong>: JavaScript, React, Webpack, Konva, Material UI</li>
+        <li>
+        <p>A B2B SaaS geospatial analytics platform.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Django, PostgreSQL</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, React, Webpack, Konva, Material UI</p>
+        </li>
         </ul>
-        <h2>Supply Chain Performance Indicator</h2>
+        <h2><strong>Supply Chain Performance Indicator</strong></h2>
+        <p>Jan 2021 – June 2021</p>
         <ul>
-        <li>Jan 2021 – June 2021</li>
-        <li>A supply chain performance indicator survey tool developed for UK-based market research firm Ideas &amp; Action.</li>
-        <li><strong>Backend</strong>: Python, Django, PostgreSQL, Redis</li>
-        <li><strong>Frontend</strong>: JavaScript, React, Webpack, Material UI</li>
-        <li><strong>Infrastructure</strong>: AWS EC2, AWS RDS, NGINX</li>
+        <li>
+        <p>A supply chain performance indicator survey tool developed for UK-based market research firm Ideas &amp; Action.</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Django, PostgreSQL, Redis</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, React, Webpack, Material UI</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: AWS EC2, AWS RDS, NGINX</p>
+        </li>
         </ul>
-        <h2>PrimerDriver</h2>
+        <h2><strong>PrimerDriver</strong></h2>
+        <p>Jan 2020 – Feb 2020</p>
         <ul>
-        <li>Jan 2020 – Feb 2020</li>
         <li>
         <p><a href="https://github.com/kvdomingo/primerdriver">CLI</a> and <a href="https://primerdriver.kvd.studio">web application</a>  for automating the design of mutagenic PCR primers for site-directed mutagenesis.</p>
         </li>
         <li>
         <p><strong>Backend</strong>: Python, Flask, BioPython, Sphinx</p>
         </li>
-        <li><strong>Frontend</strong>: JavaScript, React, Webpack, Material Design Bootstrap, Click</li>
-        <li><strong>Infrastructure</strong>: Heroku</li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, React, Webpack, Material Design Bootstrap, Click</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Heroku</p>
+        </li>
         </ul>
-        <h2>Hannibot</h2>
+        <h2><strong>Hannibot</strong></h2>
+        <p>June 2020 – July 2021</p>
         <ul>
-        <li>June 2020 – July 2021</li>
         <li>
         <p>A <a href="https://hannibot.kvd.studio">Discord bot</a> that keeps track of upcoming K-pop releases, and crossposts  Twitter and VLIVE media to K-pop-oriented Discord guilds (<a href="https://github.com/kvdomingo/chaebot">GitHub</a>).</p>
         </li>
         <li>
         <p><strong>Backend</strong>: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API</p>
         </li>
-        <li><strong>Frontend</strong>: JavaScript, Vite, React, Bootstrap</li>
-        <li><strong>Infrastructure</strong>: Heroku, Vercel</li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, Vite, React, Bootstrap</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Heroku, Vercel</p>
+        </li>
         </ul>
-        <h2>Homelab</h2>
+        <h2><strong>Homelab</strong></h2>
+        <p>May 2023 – present</p>
         <ul>
-        <li>May 2023 – present</li>
-        <li>Personal homelab running on a high-availability Kubernetes cluster hosted on-premises.</li>
-        <li><strong>Infrastructure</strong>: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi</li>
-        <li><strong>Networking</strong>: pfSense, Traefik, Bind9, Pi-hole</li>
+        <li>
+        <p>Personal homelab running on a high-availability Kubernetes cluster hosted on-premises.</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi</p>
+        </li>
+        <li>
+        <p><strong>Networking</strong>: pfSense, Traefik, Bind9, Pi-hole</p>
+        </li>
         </ul>
-        <h2>Banyuhay</h2>
+        <h2><strong>Banyuhay</strong></h2>
+        <p>Oct 2024 – present</p>
         <ul>
-        <li>Oct 2024 – present</li>
         <li>
         <p>A geospatial <a href="https://banyuh.ai">web app</a> to allow users within Metro Manila to locate nearby  restrooms with bidets (<a href="https://github.com/kvdomingo/banyuhay">GitHub</a>).</p>
         </li>
         <li>
         <p><strong>Backend</strong>: Python, FastAPI, PostgreSQL, PostGIS</p>
         </li>
-        <li><strong>Frontend</strong>: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps</li>
-        <li><strong>Infrastructure</strong>: Docker, Kubernetes, Helm, Cloudflare</li>
-        <li><strong>Data</strong>: OpenStreetMaps</li>
+        <li>
+        <p><strong>Frontend</strong>: TypeScript, Vite, React, TanStack Start, LibreMaps, Protomaps</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Docker, Kubernetes, Helm, Cloudflare</p>
+        </li>
+        <li>
+        <p><strong>Data</strong>: OpenStreetMaps, Instagram</p>
+        </li>
         </ul>
-        <h2>KenGPT</h2>
+        <h2><strong>LSFM</strong></h2>
+        <p>Apr 2022</p>
         <ul>
-        <li>Feb 2023</li>
-        <li>Yet another <a href="https://gpt.kvd.studio">ChatGPT clone</a> (<a href="https://github.com/kvdomingo/kengpt]">GitHub</a>.</li>
-        <li><strong>Backend/Frontend</strong>: TypeScript, React, Next.js, TailwindCSS, PostgreSQL</li>
-        <li><strong>Infrastructure</strong>: Supabase, Vercel</li>
-        <li><strong>AI</strong>: OpenAI, Anthropic</li>
-        </ul>
-        <h2>LSFM</h2>
-        <ul>
-        <li>Apr 2022</li>
         <li>
         <p>A <a href="https://lsfm.kvd.studio">clone</a> of the LE SSERAFIM Digital Souvenir system  (<a href="https://github.com/kvdomingo/lsfm">GitHub</a>).</p>
         </li>
         <li>
         <p><strong>Frontend</strong>: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg</p>
         </li>
-        <li><strong>Infrastructure</strong>: Vercel</li>
+        <li>
+        <p><strong>Infrastructure</strong>: Vercel</p>
+        </li>
         </ul>
-        <h2>NCOVenience</h2>
+        <h2><strong>NCOVenience</strong></h2>
+        <p>Mar 2020 – June 2020</p>
         <ul>
-        <li>Mar 2020 – June 2020</li>
-        <li>COVID-19 PH Cases Tracker Map (<a href="https://github.com/kvdomingo/ncovenience">GitHub</a>).</li>
-        <li><strong>Backend</strong>: Python, Flask, NumPy, Pandas, BeautifulSoup</li>
-        <li><strong>Frontend</strong>: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox</li>
-        <li><strong>Infrastructure</strong>: Heroku</li>
+        <li>
+        <p>COVID-19 PH Cases Tracker Map (<a href="https://github.com/kvdomingo/ncovenience">GitHub</a>).</p>
+        </li>
+        <li>
+        <p><strong>Backend</strong>: Python, Flask, NumPy, Pandas, BeautifulSoup</p>
+        </li>
+        <li>
+        <p><strong>Frontend</strong>: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox</p>
+        </li>
+        <li>
+        <p><strong>Infrastructure</strong>: Heroku</p>
+        </li>
         </ul>
-        <h1>Certifications</h1>
-        <h2>Azure AI Engineer Associate</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Azure AI Engineer Associate</strong></h2>
+        <p>May 2024</p>
         <ul>
-        <li>May 2024</li>
         <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A">Microsoft</a></li>
         </ul>
-        <h2>Professional Cloud Architect</h2>
+        <h2><strong>Professional Cloud Architect</strong></h2>
+        <p>July 2021</p>
         <ul>
-        <li>July 2021</li>
         <li><a href="https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b#gs.755e2e">Google Cloud</a></li>
         </ul>
-        <h1>Publications</h1>
-        <h2>Compressively sampled speech: How good is the recovery?</h2>
-        <ul>
-        <li>Sept 2020</li>
-        <li>K. V. Domingo, M. N. Soriano</li>
-        <li>Proceedings of the Samahang Pisika ng Pilipinas 38 <a href="https://paperview.spp-online.org/proceedings/article/view/SPP-2020-4C-04">SPP-2020-4C-04</a></li>
-        </ul>
-        <h2>Frequency domain reconstruction of stochastically sampled signals based on compressive sensing</h2>
-        <ul>
-        <li>May 2019</li>
-        <li>K. V. Domingo, M. N. Soriano</li>
-        <li>Proceedings of the Samahang Pisika ng Pilipinas 37 <a href="https://paperview.spp-online.org/proceedings/article/view/SPP-2019-PB-38">SPP-2019-PB-38</a></li>
-        </ul>
-        <h1>Technologies</h1>
-        <ul>
-        <li>Backend: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono, Bun)</li>
-        <li>Frontend: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)</li>
-        <li>
-        <p>Databases: OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, Snowflake)  Vector (Chroma, Weaviate)</p>
-        </li>
-        <li>
-        <p>Cloud Platforms: Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel, Cloudflare</p>
-        </li>
-        <li>
-        <p>DevSecOps: Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security, Azure DevOps</p>
-        </li>
-        <li>
-        <p>Data: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, DuckLake, Apache Spark</p>
-        </li>
-        <li>AI/ML: Ollama, LangChain, Vercel AI SDK, TensorFlow, Keras, Scikit-learn, OpenCV</li>
-        <li>
-        <p>Infrastructure: Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)</p>
-        </li>
-        <li>
-        <p>Business Intelligence/Dashboarding: Apache Superset, Metabase, Evidence</p>
-        </li>
-        <li>Miscellaneous: Microsoft Excel, Google Sheets, LaTeX</li>
-        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>BlueCarT: Tracking mangrove blue carbon in the Philippines through an open-access data analytics platform (DAP)</strong></h2>
+        <p>Oct 2025</p>
+        <p>D. C. M. Bajaro, K. V. Domingo, S. P. B. Manalo, P. B. Jacob, A. A. Nierves, C. D. C. Zablan, A. C. Balota, M. E. B. Gerona-Daga, D. T. Gevana, S. G. Salmo III</p>
+        <h2><strong>Compressively sampled speech: How good is the recovery?</strong></h2>
+        <p>Sept 2020</p>
+        <p>K. V. Domingo, M. N. Soriano</p>
+        <p>(Proceedings of the Samahang Pisika ng Pilipinas 38 <a href="https://paperview.spp-online.org/proceedings/article/view/SPP-2020-4C-04">SPP-2020-4C-04</a></p>
+        <p>)</p>
+        <h2><strong>Frequency domain reconstruction of stochastically sampled signals based on compressive sensing</strong></h2>
+        <p>May 2019</p>
+        <p>K. V. Domingo, M. N. Soriano</p>
+        <p>(Proceedings of the Samahang Pisika ng Pilipinas 37 <a href="https://paperview.spp-online.org/proceedings/article/view/SPP-2019-PB-38">SPP-2019-PB-38</a></p>
+        <p>)</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <p><strong>Backend:</strong> Python (FastAPI, FastMCP, Django, Flask), Go (Fiber), Node.js (Express, Hono, Bun)</p>
+        <p><strong>Frontend:</strong> TypeScript (React, TanStack Start, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Vercel AI Elements)</p>
+        <p><strong>Databases:</strong> OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, DuckLake)  Vector (Chroma, Weaviate)</p>
+        <p><strong>Cloud Platforms:</strong> Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel, Cloudflare</p>
+        <p><strong>DevSecOps:</strong> Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, Azure DevOps, Infisical</p>
+        <p><strong>Data:</strong> Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, DuckLake, Apache Spark</p>
+        <p><strong>AI/ML:</strong> Ollama, LM Studio, LangChain, Claude Code, Gemini CLI, Cursor, Vercel AI SDK, TensorFlow, Keras, Scikit-Learn, OpenCV</p>
+        <p><strong>Infrastructure:</strong> Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)</p>
+        <p><strong>Business Intelligence/Dashboarding:</strong> Apache Superset, Metabase, Evidence</p>
+        <p><strong>Miscellaneous:</strong> Microsoft Excel, Google Sheets, LaTeX</p>
     </article>
 </body>
 

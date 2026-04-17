@@ -18,10 +18,11 @@ cv:
         end_date: 2020-07
         highlights:
           - "**Thesis**: Compressive sensing: Applications from 1-D to $N$-D"
-          - "**Research Lab**: Video and Image Processing, Instrumentation Physics Laboratory"
+          - "**Research Lab**: Video and Image Processing, Instrumentation
+            Physics Laboratory"
           - >
-            **Relevant Coursework**: Computer Methods in Physics, Physical Electronics, 
-            Control Systems Approach to Physics Modeling,
+            **Relevant Coursework**: Computer Methods in Physics, Physical
+            Electronics,  Control Systems Approach to Physics Modeling,
             Signal/Video/Image Processing, Neural Networks and Machine Learning
     work_experience:
       - company: Eyva
@@ -29,20 +30,21 @@ cv:
         location: Cologne, DE (Remote)
         start_date: 2024-12
         highlights:
-          - Performed the migration of the Eyva platform from standalone React to
-            Next.js, implemented the new design system, and contributed to the
-            platform's continuous improvement.
-          - Redeveloped the Research Assistant, allowing it to integrate better with the
-            Eyva platform, implementing an agentic architecture, overhauling the chat
-            interface to align with the new design system, and making it compliant
-            with the ISO 27001:2022 standard.
+          - Performed the migration of the Eyva platform from standalone React
+            to Next.js, implemented the new design system, and contributed to
+            the platform's continuous improvement.
+          - Redeveloped the Research Assistant, allowing it to integrate better
+            with the Eyva platform, implementing an agentic architecture,
+            overhauling the chat interface to align with the new design system,
+            and making it compliant with the ISO 27001:2022 standard.
           - >
-            Member of the Information Security Management System (ISMS) team and owned
-            major tasks contributing to the ISO 27001:2022 certification process.
+            Member of the Information Security Management System (ISMS) team and
+            owned major tasks contributing to the ISO 27001:2022 certification
+            process.
           - Owned routine security, compliance, infrastructure maintenance, and
             system administration tasks.
-          - Created proof-of-concepts for adopting new vendors such as centralized
-            logging and notification systems.
+          - Created proof-of-concepts for adopting new vendors such as
+            centralized logging and notification systems.
       - company: Thinking Machines Data Science
         position: Software Engineer / Data Engineer
         location: Taguig City, PH
@@ -50,40 +52,50 @@ cv:
         end_date: 2024-10
         highlights:
           - >
-            Led a cross-functional team of 7 engineers to architect and develop the UNICEF 
-            [Giga DataOps Platform](https://sync.giga.global), a fully 
-            [open-source](https://github.com/unicef/giga-dagster) master data management platform
-            built in coordination with [Giga](https://giga.global), a UNICEF-ITU joint initiative whose mission is
-            to connect all schools to the internet by 2030. V1.0 of the Platform was launched in September 2024 and 
-            was presented at the 
-            [Open Source Summit](https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef) 
-            in Vienna later that month. At launch, the Platform managed data for over 2.1M school records across 141 
-            countries, with near-real-time connectivity data for 93k schools updating every few minutes. The Platform 
-            was also being leveraged by 2 downstream applications with 5k monthly users.
+            Led a cross-functional team of 7 engineers to architect and develop
+            the UNICEF  [Giga DataOps Platform](https://sync.giga.global), a
+            fully  [open-source](https://github.com/unicef/giga-dagster) master
+            data management platform built in coordination with
+            [Giga](https://giga.global), a UNICEF-ITU joint initiative whose
+            mission is to connect all schools to the internet by 2030. V1.0 of
+            the Platform was launched in September 2024 and  was presented at
+            the  [Open Source
+            Summit](https://osseu2024.sched.com/event/1iSnq/global-school-connectivity-dataops-platform-shilpa-arora-unicef)  in
+            Vienna later that month. At launch, the Platform managed data for
+            over 2.1M school records across 141  countries, with near-real-time
+            connectivity data for 93k schools updating every few minutes. The
+            Platform  was also being leveraged by 2 downstream applications with
+            5k monthly users.
           - >
-            Developed a data analytics platform for a Thailand-based agricultural company: optimized
-            the data lake setup for near-realtime updates of logistic movements and
-            validation of the delivery of burnt produce. Daily tasks involved orchestration and
-            scheduling of ELT tasks and SQL queries on BigQuery via Dagster, and automating replication
-            of multi-cloud deployment environments via Terraform.
+            Developed a data analytics platform for a Thailand-based
+            agricultural company: optimized the data lake setup for
+            near-realtime updates of logistic movements and validation of the
+            delivery of burnt produce. Daily tasks involved orchestration and
+            scheduling of ELT tasks and SQL queries on BigQuery via Dagster, and
+            automating replication of multi-cloud deployment environments via
+            Terraform.
           - >
-            Developed [GenAI applications](https://thinkingmachin.es/llm-solutions/) for several enterprise clients in 
-            the financial sector, leveraging Azure OpenAI. Daily tasks involved designing responsive
-            chat interfaces, and image processing to remove non-text elements in financial
-            documents in order to prepare them for vector embedding for use in downstream
-            RAG applications.
+            Developed [GenAI
+            applications](https://thinkingmachin.es/llm-solutions/) for several
+            enterprise clients in  the financial sector, leveraging Azure
+            OpenAI. Daily tasks involved designing responsive chat interfaces,
+            and image processing to remove non-text elements in financial
+            documents in order to prepare them for vector embedding for use in
+            downstream RAG applications.
           - >
-            Developed the [SDG Impact Tool](https://sdg-tool.goldstandard.org/) for 
-            [Gold Standard](https://goldstandard.org) to digitize their process
-            of reporting, validating, verifying, and tracking the contribution of project
-            activities to the UN Sustainable Development Goals. Daily tasks involved
-            backend development in Django, frontend development in React, and
-            automating infrastructure provisioning across multiple Google Cloud deployment
-            environments using Terraform.
+            Developed the [SDG Impact Tool](https://sdg-tool.goldstandard.org/)
+            for  [Gold Standard](https://goldstandard.org) to digitize their
+            process of reporting, validating, verifying, and tracking the
+            contribution of project activities to the UN Sustainable Development
+            Goals. Daily tasks involved backend development in Django, frontend
+            development in React, and automating infrastructure provisioning
+            across multiple Google Cloud deployment environments using
+            Terraform.
           - >
-            Developed an internal geospatial analytics platform for a Philippine-based
-            telecommunications company: involved in migrating user interface components to a modern tech
-            stack and increasing test coverage.
+            Developed an internal geospatial analytics platform for a
+            Philippine-based telecommunications company: involved in migrating
+            user interface components to a modern tech stack and increasing test
+            coverage.
       - company: Stevn Books
         position: Software Developer (Freelance)
         location: Manila, PH (Remote)
@@ -91,9 +103,10 @@ cv:
         end_date: 2023-01
         highlights:
           - >
-            Developed the API and infrastructure for an inventory management and profit
-            calculator system deployed on DigitalOcean: integrated with PayMongo to
-            process customer payments and AWS Cognito as a B2C identity provider.
+            Developed the API and infrastructure for an inventory management and
+            profit calculator system deployed on DigitalOcean: integrated with
+            PayMongo to process customer payments and AWS Cognito as a B2C
+            identity provider.
       - company: Cobena Business Analytics and Strategy (Demand Science)
         position: Software Engineer / Data Analyst
         location: Taguig City, PH
@@ -101,32 +114,37 @@ cv:
         end_date: 2022-11
         highlights:
           - >
-            Developed a unified frontend enabling users to experiment with deployed ML
-            models being developed in-house.
+            Developed a unified frontend enabling users to experiment with
+            deployed ML models being developed in-house.
           - >
-            Developed the frontend for an internal data lakehouse platform allowing users to
-            perform queries on access-controlled data, apply filters, save filters, and export
-            their search results.
+            Developed the frontend for an internal data lakehouse platform
+            allowing users to perform queries on access-controlled data, apply
+            filters, save filters, and export their search results.
           - Guided the adoption of MLOps principles within the AI/ML team.
-          - Spearheaded the company-wide adoption of modern frontend tooling using Figma and TypeScript.
+          - Spearheaded the company-wide adoption of modern frontend tooling
+            using Figma and TypeScript.
           - >
-            Developed a supply chain performance survey tool for UK-based marketing
-            consultancy [Ideas and Action](https://ideasandaction.com/): led backend development with Django, Redis, and
-            PostgreSQL, deployed to an AWS environment.
+            Developed a supply chain performance survey tool for UK-based
+            marketing consultancy [Ideas and
+            Action](https://ideasandaction.com/): led backend development with
+            Django, Redis, and PostgreSQL, deployed to an AWS environment.
           - >
-            Developed Gateway, a B2B SaaS geospatial analytics platform: led weekly code
-            reviews to maintain quality standards and optimize the team’s delivery.
+            Developed Gateway, a B2B SaaS geospatial analytics platform: led
+            weekly code reviews to maintain quality standards and optimize the
+            team’s delivery.
           - >
-            Developed internal tooling for a multinational FMCG client: initiated the migration from manual
-            testing to automated API testing using Python scripts, reducing testing time from
-            2 days to 30 minutes.
+            Developed internal tooling for a multinational FMCG client:
+            initiated the migration from manual testing to automated API testing
+            using Python scripts, reducing testing time from 2 days to 30
+            minutes.
       - company: DetectPH
         position: Backend Developer (Volunteer)
         location: Quezon City, PH
         start_date: 2020-03
         end_date: 2020-05
         highlights:
-          - Developed the API for a COVID-19 contact-tracing mobile application written with Express and MongoDB.
+          - Developed the API for a COVID-19 contact-tracing mobile application
+            written with Express and MongoDB.
       - company: Philippine Genome Center
         position: Bioinformatics Intern
         location: Quezon City, PH
@@ -134,91 +152,117 @@ cv:
         end_date: 2020-02
         highlights:
           - >
-            Underwent training in bioinformatics; developed a command-line tool and web application for designing 
-            primers for site-directed mutagenesis.
+            Underwent training in bioinformatics; developed a command-line tool
+            and web application for designing  primers for site-directed
+            mutagenesis.
       - company: Instrumentation Physics Laboratory
         position: Student Researcher
         location: Quezon City, PH
         start_date: 2017-10
         end_date: 2020-07
         highlights:
-          - Research focused on processing and analysis of videos, images, and other signals using conventional signal processing methods,
-            as well as experimental methods such as compressive sensing and machine learning.
+          - Research focused on processing and analysis of videos, images, and
+            other signals using conventional signal processing methods, as well
+            as experimental methods such as compressive sensing and machine
+            learning.
       - company: Philippine Coral Reef and Mangrove Remote Sensing Project
         position: Student Assistant (Contract)
         location: Quezon City, PH
         start_date: 2018-12
         end_date: 2019-01
         highlights:
-          - Performed ground-truth validation of images involving corals classified by a deep neural network.
+          - Performed ground-truth validation of images involving corals
+            classified by a deep neural network.
     projects:
       - name: Giga DataOps Platform
         start_date: 2023-07
         end_date: 2024-09
         highlights:
           - >
-            An open-source master data management platform developed with Giga, a UNICEF$\times$ITU initiative to 
-            connect all schools around the world to the internet by 2030.
+            An open-source master data management platform developed with Giga,
+            a UNICEF$\times$ITU initiative to  connect all schools around the
+            world to the internet by 2030.
           - >
-            [Giga Sync](https://sync.giga.global) ([GitHub](https://github.com/unicef/giga-data-ingestion)) is the
-            data ingestion portal, allowing users---such as country representatives, government agencies, and NGO 
-            partners---to upload school data in a variety of formats. Here, users can also monitor the progress of
-            ingestion and quality check reports of their previously uploaded data.
+            [Giga Sync](https://sync.giga.global)
+            ([GitHub](https://github.com/unicef/giga-data-ingestion)) is the
+            data ingestion portal, allowing users---such as country
+            representatives, government agencies, and NGO  partners---to upload
+            school data in a variety of formats. Here, users can also monitor
+            the progress of ingestion and quality check reports of their
+            previously uploaded data.
           - >
-            [Giga Dagster](https://dagster.giga.global) ([GitHub](https://github.com/unicef/giga-dagster)) is the heart
-            of the platform, responsible for orchestrating data tasks such as ingestion, transformation, and data 
-            quality checks. Data is stored in the data lake in the Delta Lake open table format, allowing various access
-            methods and maintaining a full change history via the change data feed.
+            [Giga Dagster](https://dagster.giga.global)
+            ([GitHub](https://github.com/unicef/giga-dagster)) is the heart of
+            the platform, responsible for orchestrating data tasks such as
+            ingestion, transformation, and data  quality checks. Data is stored
+            in the data lake in the Delta Lake open table format, allowing
+            various access methods and maintaining a full change history via the
+            change data feed.
           - >
-            [Giga Data Sharing](https://datasharing.giga.global) ([GitHub](https://github.com/unicef/giga-data-sharing))
-            allows open access to the school master data, subject to role-based access control. The API is compliant
-            with the Delta Sharing Protocol, allowing users to interact with the data using the Delta Sharing client 
-            libraries.
+            [Giga Data Sharing](https://datasharing.giga.global)
+            ([GitHub](https://github.com/unicef/giga-data-sharing)) allows open
+            access to the school master data, subject to role-based access
+            control. The API is compliant with the Delta Sharing Protocol,
+            allowing users to interact with the data using the Delta Sharing
+            client  libraries.
           - >
-            [Giga Superset](https://superset.giga.global) ([GitHub](https://github.com/unicef/giga-superset)) is the
-            business intelligence platform, allowing data analysts to explore, visualize, and extract insights from the
-            data stored in the data lake.
+            [Giga Superset](https://superset.giga.global)
+            ([GitHub](https://github.com/unicef/giga-superset)) is the business
+            intelligence platform, allowing data analysts to explore, visualize,
+            and extract insights from the data stored in the data lake.
           - >
-            [Giga Datahub](https://datahub.giga.global) ([GitHub](https://github.com/unicef/giga-datahub)) is the data
+            [Giga Datahub](https://datahub.giga.global)
+            ([GitHub](https://github.com/unicef/giga-datahub)) is the data
             catalog, allowing for the discovery of data stored in the data lake.
           - >
-            Giga Trino ([GitHub](https://github.com/unicef/giga-trino)) is the query engine, allowing Delta Lake tables
-            to be queried as SQL for business intelligence applications such as Superset.
+            Giga Trino ([GitHub](https://github.com/unicef/giga-trino)) is the
+            query engine, allowing Delta Lake tables to be queried as SQL for
+            business intelligence applications such as Superset.
           - >
-            Giga Monitoring ([GitHub](https://github.com/unicef/giga-monitoring)) provides for the monitoring and 
-            logging of all deployed applications on UNICEF Giga's Kubernetes cluster.
+            Giga Monitoring
+            ([GitHub](https://github.com/unicef/giga-monitoring)) provides for
+            the monitoring and  logging of all deployed applications on UNICEF
+            Giga's Kubernetes cluster.
           - "**Backend**: Python, FastAPI, PostgreSQL, Redis"
           - >
-            **Frontend**: TypeScript, Vite, React, Zustand, TailwindCSS, Carbon Design System, Ant Design, 
-            Tanstack Query, Tanstack Router, Swagger UI
+            **Frontend**: TypeScript, Vite, React, Zustand, TailwindCSS, Carbon
+            Design System, Ant Design,  Tanstack Query, Tanstack Router, Swagger
+            UI
           - "**DevOps**: GitHub, Azure DevOps, Prometheus, Grafana, Sentry"
           - >
-            **DataOps**: Dagster, Apache Spark, Apache Hive Metastore, Delta Lake, Delta Sharing, Datahub, Trino, 
-            Apache Superset
-          - "**Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure Kubernetes Service, Azure Entra ID"
+            **DataOps**: Dagster, Apache Spark, Apache Hive Metastore, Delta
+            Lake, Delta Sharing, Datahub, Trino,  Apache Superset
+          - "**Infrastructure**: Docker, Helm, Azure Data Lake Storage, Azure
+            Kubernetes Service, Azure Entra ID"
       - name: Farm Data Analytics Platform
         start_date: 2024-05
         end_date: 2024-08
         highlights:
-          - A data platform for validating the delivery of burnt agricultural products using various data sources
-            such as vehicular data, geospatial farm data, GISTDA roads, and NASA FIRMS active fire data. The platform
-            used Google BigQuery and Google Cloud Storage as the primary data warehouse.
+          - A data platform for validating the delivery of burnt agricultural
+            products using various data sources such as vehicular data,
+            geospatial farm data, GISTDA roads, and NASA FIRMS active fire data.
+            The platform used Google BigQuery and Google Cloud Storage as the
+            primary data warehouse.
           - "**Backend**: Node.js, Express, PostgreSQL, BoxySAML, Prisma"
           - "**Frontend**: TypeScript, Swagger UI"
           - "**DataOps**: Dagster, Google BigQuery, Polars"
           - "**DevOps**: GitHub, GitHub Actions, Terraform"
           - >
-            **Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine, GCP HA VPN,
-            GCP Cloud Router, GCP Cloud Load Balancing, GCP Cloud Storage, Azure Enterprise Application, 
-            AWS VPC, AWS S3
+            **Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP
+            Compute Engine, GCP HA VPN, GCP Cloud Router, GCP Cloud Load
+            Balancing, GCP Cloud Storage, Azure Enterprise Application,  AWS
+            VPC, AWS S3
       - name: ResearchAI
         start_date: 2023-07
         end_date: 2023-08
         highlights:
-          - Various [AI chat applications](https://thinkingmachin.es/llm-solutions/) developed for enterprise clients,
-            focusing on retrieving information from sensitive and PII documents.
+          - Various [AI chat
+            applications](https://thinkingmachin.es/llm-solutions/) developed
+            for enterprise clients, focusing on retrieving information from
+            sensitive and PII documents.
           - "**Backend**: Python, FastAPI, PostgreSQL, Weaviate, PineconeDB"
-          - "**Frontend**: TypeScript, React, Next.js, T3, tRPC, Prisma, Auth.js, Zustand, TailwindCSS, Shadcn UI"
+          - "**Frontend**: TypeScript, React, Next.js, T3, tRPC, Prisma,
+            Auth.js, Zustand, TailwindCSS, Shadcn UI"
           - "**DataOps**: Dagster, NumPy, Pandas"
           - "**AI**: Azure OpenAI, Langchain, OpenCV"
           - "**DevOps**: GitHub, GitHub Actions, Terraform"
@@ -228,11 +272,13 @@ cv:
         end_date: 2023-06
         highlights:
           - >
-            [Web application](https://sdg-tool.goldstandard.org) developed for Gold Standard to digitize their process of 
-            reporting, validating, verifying, and tracking the contribution of project activities to the UN Sustainable 
-            Development Goals.
+            [Web application](https://sdg-tool.goldstandard.org) developed for
+            Gold Standard to digitize their process of  reporting, validating,
+            verifying, and tracking the contribution of project activities to
+            the UN Sustainable  Development Goals.
           - "**Backend**: Python, Django, PostgreSQL, Node.js, Express"
-          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Material UI"
+          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Material
+            UI"
           - "**DevOps**: GitHub, GitHub Actions, GCP Cloud Build, Terraform"
           - "**Infrastructure**: GCP Cloud Run, GCP Cloud SQL, Auth0"
       - name: Single Customer View
@@ -241,7 +287,8 @@ cv:
         highlights:
           - A reusable single customer view web app.
           - "**Backend**: Python, FastAPI, SQLAlchemy, Snowflake"
-          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI, TailwindCSS"
+          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI,
+            TailwindCSS"
           - "**DevOps**: GitHub, GitHub Actions, Terraform"
           - "**Infrastructure**: Docker, AWS EC2, AWS ECS, Cloudflare"
       - name: Telecom Geospatial Analytics Platform
@@ -250,14 +297,17 @@ cv:
         highlights:
           - An internal geospatial analytics platform.
           - "**Backend**: Python, Django, PostgreSQL, Elasticsearch"
-          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Chakra UI"
+          - "**Frontend**: TypeScript, Vite, React, Redux, TailwindCSS, Chakra
+            UI"
           - "**DevOps**: GitHub, Jenkins, Terraform"
-          - "**Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP Compute Engine"
+          - "**Infrastructure**: Docker, GCP Cloud Run, GCP Cloud SQL, GCP
+            Compute Engine"
       - name: Stevn Books
         start_date: 2022-11
         end_date: 2023-01
         highlights:
-          - "[Web app](https://stevnbooks.com) for inventory management and profit calculator."
+          - "[Web app](https://stevnbooks.com) for inventory management and
+            profit calculator."
           - "**Backend**: Python, Django, PostgreSQL"
           - "**Frontend**: JavaScript, React, Webpack, Material UI, Swagger UI"
           - "**Infrastructure**: AWS Cognito, DigitalOcean, Jenkins, Docker"
@@ -265,17 +315,21 @@ cv:
         start_date: 2022-03
         end_date: 2022-11
         highlights:
-          - A unified frontend to allow regular users to experiment with deployed ML models being developed in-house.
+          - A unified frontend to allow regular users to experiment with
+            deployed ML models being developed in-house.
           - "**Backend**: Python, Django"
-          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI, Ant Design"
+          - "**Frontend**: TypeScript, Vite, React, Redux, Material UI, Ant
+            Design"
           - "**Infrastructure**: AWS ECS, AWS Cognito, Sentry"
       - name: Search Console
         start_date: 2021-07
         end_date: 2022-11
         highlights:
-          - A web app to allow business users to search for specific data in the internal data lakehouse.
+          - A web app to allow business users to search for specific data in the
+            internal data lakehouse.
           - "**Backend**: Go, Chi, Redis"
-          - "**Frontend**: TypeScript, React, Webpack, Redux, Material UI, GraphQL"
+          - "**Frontend**: TypeScript, React, Webpack, Redux, Material UI,
+            GraphQL"
           - "**Infrastructure**: AWS ECS, AWS Cognito"
       - name: Gateway 3
         start_date: 2021-01
@@ -288,7 +342,8 @@ cv:
         start_date: 2021-01
         end_date: 2021-06
         highlights:
-          - A supply chain performance indicator survey tool developed for UK-based market research firm Ideas & Action.
+          - A supply chain performance indicator survey tool developed for
+            UK-based market research firm Ideas & Action.
           - "**Backend**: Python, Django, PostgreSQL, Redis"
           - "**Frontend**: JavaScript, React, Webpack, Material UI"
           - "**Infrastructure**: AWS EC2, AWS RDS, NGINX"
@@ -297,70 +352,92 @@ cv:
         end_date: 2020-02
         highlights:
           - >
-            [CLI](https://github.com/kvdomingo/primerdriver) and [web application](https://primerdriver.kvd.studio) 
-            for automating the design of mutagenic PCR primers for site-directed mutagenesis.
+            [CLI](https://github.com/kvdomingo/primerdriver) and [web
+            application](https://primerdriver.kvd.studio)  for automating the
+            design of mutagenic PCR primers for site-directed mutagenesis.
           - "**Backend**: Python, Flask, BioPython, Sphinx"
-          - "**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Click"
+          - "**Frontend**: JavaScript, React, Webpack, Material Design
+            Bootstrap, Click"
           - "**Infrastructure**: Heroku"
       - name: Hannibot
         start_date: 2020-06
         end_date: 2021-07
         highlights:
           - >
-            A [Discord bot](https://hannibot.kvd.studio) that keeps track of upcoming K-pop releases, and crossposts 
-            Twitter and VLIVE media to K-pop-oriented Discord guilds ([GitHub](https://github.com/kvdomingo/chaebot)).
-          - "**Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API, VLIVE API"
+            A [Discord bot](https://hannibot.kvd.studio) that keeps track of
+            upcoming K-pop releases, and crossposts  Twitter and VLIVE media to
+            K-pop-oriented Discord guilds
+            ([GitHub](https://github.com/kvdomingo/chaebot)).
+          - "**Backend**: Python, Flask, PostgreSQL, Discord API, Twitter API,
+            VLIVE API"
           - "**Frontend**: JavaScript, Vite, React, Bootstrap"
           - "**Infrastructure**: Heroku, Vercel"
       - name: Homelab
         start_date: 2023-05
         highlights:
-          - Personal homelab running on a high-availability Kubernetes cluster hosted on-premises.
-          - "**Infrastructure**: Linux, Proxmox, Kubernetes, K3s, Ansible, Raspberry Pi"
+          - Personal homelab running on a high-availability Kubernetes cluster
+            hosted on-premises.
+          - "**Infrastructure**: Linux, Proxmox, Kubernetes, K3s, Ansible,
+            Raspberry Pi"
           - "**Networking**: pfSense, Traefik, Bind9, Pi-hole"
       - name: Banyuhay
         start_date: 2024-10
         highlights:
           - >
-            A geospatial [web app](https://banyuh.ai) to allow users within Metro Manila to locate nearby 
-            restrooms with bidets ([GitHub](https://github.com/kvdomingo/banyuhay)).
+            A geospatial [web app](https://banyuh.ai) to allow users within
+            Metro Manila to locate nearby  restrooms with bidets
+            ([GitHub](https://github.com/kvdomingo/banyuhay)).
           - "**Backend**: Python, FastAPI, PostgreSQL, PostGIS"
-          - "**Frontend**: TypeScript, Vite, SvelteKit, LibreMaps, Protomaps"
+          - "**Frontend**: TypeScript, Vite, React, TanStack Start, LibreMaps,
+            Protomaps"
           - "**Infrastructure**: Docker, Kubernetes, Helm, Cloudflare"
-          - "**Data**: OpenStreetMaps"
-      - name: KenGPT
-        date: 2023-02
-        highlights:
-          - Yet another [ChatGPT clone](https://gpt.kvd.studio) ([GitHub](https://github.com/kvdomingo/kengpt]).
-          - "**Backend/Frontend**: TypeScript, React, Next.js, TailwindCSS, PostgreSQL"
-          - "**Infrastructure**: Supabase, Vercel"
-          - "**AI**: OpenAI, Anthropic"
+          - "**Data**: OpenStreetMaps, Instagram"
       - name: LSFM
         date: 2022-04
         highlights:
           - >
-            A [clone](https://lsfm.kvd.studio) of the LE SSERAFIM Digital Souvenir system 
-            ([GitHub](https://github.com/kvdomingo/lsfm)).
-          - "**Frontend**: TypeScript, Vite, React, TailwindCSS, Shadcn UI, WebAssembly, ffmpeg"
+            A [clone](https://lsfm.kvd.studio) of the LE SSERAFIM Digital
+            Souvenir system  ([GitHub](https://github.com/kvdomingo/lsfm)).
+          - "**Frontend**: TypeScript, Vite, React, TailwindCSS, Shadcn UI,
+            WebAssembly, ffmpeg"
           - "**Infrastructure**: Vercel"
       - name: NCOVenience
         start_date: 2020-03
         end_date: 2020-06
         highlights:
-          - COVID-19 PH Cases Tracker Map ([GitHub](https://github.com/kvdomingo/ncovenience)).
+          - COVID-19 PH Cases Tracker Map
+            ([GitHub](https://github.com/kvdomingo/ncovenience)).
           - "**Backend**: Python, Flask, NumPy, Pandas, BeautifulSoup"
-          - "**Frontend**: JavaScript, React, Webpack, Material Design Bootstrap, Chart.js, Mapbox"
+          - "**Frontend**: JavaScript, React, Webpack, Material Design
+            Bootstrap, Chart.js, Mapbox"
           - "**Infrastructure**: Heroku"
     certifications:
       - name: Azure AI Engineer Associate
         date: 2024-05
         highlights:
-          - "[Microsoft](https://learn.microsoft.com/api/credentials/share/en-us/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A)"
+          - "[Microsoft](https://learn.microsoft.com/api/credentials/share/en-u\
+            s/KennethDomingo-4666/970CBB2EEB4ACD4A?sharingId=791A05E133CA70A)"
       - name: Professional Cloud Architect
         date: 2021-07
         highlights:
-          - '[Google Cloud](https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65ac9b\#gs.755e2e)'
+          - "[Google
+            Cloud](https://www.credential.net/0300e26a-fcdc-40db-a4a0-689fad65a\
+            c9b#gs.755e2e)"
     publications:
+      - title: "BlueCarT: Tracking mangrove blue carbon in the Philippines through an
+          open-access data analytics platform (DAP)"
+        authors:
+          - D. C. M. Bajaro
+          - K. V. Domingo
+          - S. P. B. Manalo
+          - P. B. Jacob
+          - A. A. Nierves
+          - C. D. C. Zablan
+          - A. C. Balota
+          - M. E. B. Gerona-Daga
+          - D. T. Gevana
+          - S. G. Salmo III
+        date: 2025-10
       - title: "Compressively sampled speech: How good is the recovery?"
         authors:
           - K. V. Domingo
@@ -369,7 +446,8 @@ cv:
           Proceedings of the Samahang Pisika ng Pilipinas 38
           [SPP-2020-4C-04](https://paperview.spp-online.org/proceedings/article/view/SPP-2020-4C-04)
         date: 2020-09
-      - title: Frequency domain reconstruction of stochastically sampled signals based on compressive sensing
+      - title: Frequency domain reconstruction of stochastically sampled signals based
+          on compressive sensing
         authors:
           - K. V. Domingo
           - M. N. Soriano
@@ -379,64 +457,79 @@ cv:
         date: 2019-05
     technologies:
       - label: Backend
-        details: Python (Django, FastAPI, Flask), Go (Fiber), Node.js (Express, Hono, Bun)
+        details: >
+          Python (FastAPI, FastMCP, Django, Flask), Go (Fiber), Node.js
+          (Express, Hono, Bun)
       - label: Frontend
-        details: TypeScript (React, Next.js, Svelte, Astro), UI (Shadcn, TailwindCSS, Material UI)
+        details: >
+          TypeScript (React, TanStack Start, Next.js, Svelte, Astro), UI
+          (Shadcn, TailwindCSS, Vercel AI Elements)
       - label: Databases
         details: >
-          OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse (BigQuery, Snowflake) 
-          Vector (Chroma, Weaviate)
+          OLTP (PostgreSQL, SQLite, Redis), OLAP (DuckDB, Trino), Warehouse
+          (BigQuery, DuckLake)  Vector (Chroma, Weaviate)
       - label: Cloud Platforms
-        details: Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel, Cloudflare
+        details: >
+          Google Cloud Platform, Amazon Web Services, Microsoft Azure, Vercel,
+          Cloudflare
       - label: DevSecOps
         details: >
-          Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions, GitHub Advanced Security,
-          Azure DevOps
+          Git, Docker, Kubernetes, Helm, Snyk, ArgoCD, GitHub, GitHub Actions,
+          Azure DevOps, Infisical
       - label: Data
         details: Dagster, NumPy, (Geo)Pandas, Polars, Delta Lake, DuckLake, Apache Spark
       - label: AI/ML
-        details: Ollama, LangChain, Vercel AI SDK, TensorFlow, Keras, Scikit-learn, OpenCV
+        details: >
+          Ollama, LM Studio, LangChain, Claude Code, Gemini CLI, Cursor, Vercel
+          AI SDK, TensorFlow, Keras, Scikit-Learn, OpenCV
       - label: Infrastructure
         details: >
-          Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring (Prometheus, Grafana), 
-          Load Balancing (Traefik, NGINX)
+          Linux (Debian, Ubuntu), IaC (Terraform, Ansible), Monitoring
+          (Prometheus, Grafana),  Load Balancing (Traefik, NGINX)
       - label: Business Intelligence/Dashboarding
         details: Apache Superset, Metabase, Evidence
       - label: Miscellaneous
         details: Microsoft Excel, Google Sheets, LaTeX
 design:
-  theme: sb2nov
-  font: Latin Modern Serif
-  font_size: 10pt
-  page_size: a4paper
-  color: "#4338ca"
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: ""
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ""
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 1 cm
-      bottom: 1 cm
-      left: 1 cm
-      right: 1 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_footer: true
+    show_top_note: true
+  colors:
+    links: rgb(67, 56, 202)
+  typography:
+    font_family:
+      body: New Computer Modern
+      name: New Computer Modern
+      headline: New Computer Modern
+      connections: New Computer Modern
+      section_titles: New Computer Modern
+    font_size:
+      body: 10pt
+      name: 30pt
+    alignment: justified
+  links:
+    show_external_link_icon: true
+  header:
+    space_below_connections: 0.3cm
+    connections:
+      show_icons: true
+      separator: ""
+      space_between_connections: 0.5cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.2cm
+  entries:
+    date_and_location_width: 4.5cm
+    side_space: 0.2cm
+    highlights:
+      space_above: 0.1cm
+      space_left: 0.4cm
+      space_between_items: 0.1cm
+  templates:
+    footer: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
